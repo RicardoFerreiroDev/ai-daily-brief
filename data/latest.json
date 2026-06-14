@@ -1,25 +1,29 @@
 {
   "date": "2026-06-14",
-  "title": "AI Daily Brief",
-  "executive_summary": "Este es un report de ejemplo. Ejecuta el workflow o el script localmente para generar el brief diario real con fuentes recientes.",
+  "title": "AI Daily Brief — 2026-06-14",
+  "language": "es",
+  "mode": "free-rss-no-llm",
+  "executive_summary": "Report diario gratuito generado a partir de fuentes públicas en inglés sobre IA. No usa API de pago: clasifica noticias y papers con reglas simples, conserva enlaces originales y añade contexto editorial en español.",
   "news": [
     {
-      "headline": "Ejemplo de noticia importante de IA",
-      "summary": "Aquí aparecerá un resumen breve en español de una noticia relevante extraída de fuentes en inglés.",
-      "why_it_matters": "Explicación de por qué esta noticia es relevante desde el punto de vista técnico, estratégico o regulatorio.",
-      "source": "Example Source",
+      "headline": "Ejemplo de noticia de IA",
+      "summary": "Resumen automático gratuito basado en el extracto público de la fuente. Cuando ejecutes el workflow, este contenido se sustituirá por noticias reales recogidas de RSS públicos.",
+      "why_it_matters": "Importa porque refleja una tendencia relevante en el ecosistema actual de inteligencia artificial.",
+      "source": "Fuente de ejemplo",
       "url": "https://example.com",
-      "category": "models"
+      "category": "IA general",
+      "published_date": "2026-06-14"
     }
   ],
   "papers": [
     {
-      "title": "Ejemplo de paper recomendado",
-      "summary": "Aquí aparecerá un resumen de un paper o artículo técnico relevante.",
-      "technical_relevance": "Explicación de su interés técnico para un perfil de Matemáticas, Informática y Ciencia de Datos.",
-      "source": "arXiv",
+      "title": "Ejemplo de paper de IA",
+      "summary": "Resumen automático gratuito basado en el abstract/extracto público. Cuando ejecutes el workflow, este contenido se sustituirá por papers reales de arXiv.",
+      "technical_relevance": "Artículo técnico útil para detectar tendencias de investigación y posibles líneas de trabajo futuras.",
+      "source": "arXiv ejemplo",
       "url": "https://arxiv.org",
-      "tags": ["agents", "llms"]
+      "tags": ["paper", "IA general"],
+      "published_date": "2026-06-14"
     }
   ]
 }

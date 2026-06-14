@@ -1,48 +1,85 @@
-# AI Daily Brief
+# AI Daily Brief — versión gratuita
 
-Web estática para publicar un report diario de noticias y papers de IA en español a partir de fuentes en inglés.
+Web diaria gratuita sobre inteligencia artificial, desplegada con GitHub Pages y actualizada automáticamente con GitHub Actions.
 
 ## Qué hace
 
-- Lee feeds RSS de fuentes de IA y arXiv.
-- Genera un brief diario usando OpenAI API.
-- Guarda el resultado en `data/latest.json` y en `data/archive/YYYY-MM-DD.json`.
-- Publica una página web con Astro.
-- Automatiza todo con GitHub Actions y GitHub Pages.
+- Lee fuentes RSS públicas en inglés sobre IA.
+- Selecciona noticias y papers recientes.
+- Clasifica el contenido por categorías.
+- Genera un report en español con contexto editorial básico.
+- Guarda el último report en `data/latest.json`.
+- Guarda histórico por fecha en `data/archive/YYYY-MM-DD.json`.
+- Publica la web en GitHub Pages.
 
-## Puesta en marcha
+## Qué NO hace
 
-1. Crea un repositorio en GitHub, por ejemplo `ai-daily-brief`.
-2. Sube estos archivos.
-3. En GitHub, ve a `Settings > Secrets and variables > Actions`.
-4. Crea un secreto llamado `OPENAI_API_KEY`.
-5. Ve a `Settings > Pages`.
-6. En `Build and deployment`, selecciona `GitHub Actions`.
-7. Ve a `Actions > Generate AI Daily Brief` y pulsa `Run workflow`.
+Esta versión no llama a OpenAI, Anthropic ni ningún LLM de pago. Por eso:
 
-## Desarrollo local
+- no necesitas `OPENAI_API_KEY`;
+- no necesitas añadir secrets;
+- no tiene coste de API;
+- los títulos y extractos originales de fuentes inglesas pueden aparecer en inglés, aunque la estructura, categorías y contexto editorial están en español.
 
-```bash
-npm install
-npm run dev
-```
-
-Para generar el report localmente:
+## Cómo subirlo a tu repo
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-export OPENAI_API_KEY="tu_api_key"
-python scripts/generate_report.py
+unzip ai-daily-brief-free.zip
+cd ai-daily-brief-free
+
+git init
+git branch -M main
+git remote add origin https://github.com/RicardoFerreiroDev/ai-daily-brief.git
+
+git add .
+git commit -m "Initial free AI Daily Brief app"
+git push -u origin main
 ```
 
-## Personalización
-
-Edita `SOURCES` en `scripts/generate_report.py` para añadir o quitar fuentes.
-
-También puedes cambiar el modelo con:
+Si el repo ya tiene commits:
 
 ```bash
-export OPENAI_MODEL="gpt-4.1-mini"
+git pull origin main --allow-unrelated-histories
+git push -u origin main
 ```
+
+## Activar GitHub Pages
+
+1. Ve a tu repo en GitHub.
+2. Entra en **Settings → Pages**.
+3. En **Build and deployment**, selecciona **GitHub Actions**.
+4. Guarda.
+
+## Ejecutar el primer report
+
+1. Ve a **Actions**.
+2. Abre **Generate free AI Daily Brief**.
+3. Pulsa **Run workflow**.
+
+La web quedará publicada en:
+
+```txt
+https://ricardoferreirodev.github.io/ai-daily-brief/
+```
+
+## Frecuencia diaria
+
+El workflow está programado con:
+
+```yaml
+cron: "30 6 * * *"
+```
+
+Eso lo ejecuta cada día a las 06:30 UTC.
+
+## Personalizar fuentes
+
+Edita `scripts/generate_report.py` y modifica la lista `SOURCES`.
+
+## Personalizar categorías
+
+Edita `CATEGORY_RULES` en `scripts/generate_report.py`.
+
+## Limitaciones de la versión gratuita
+
+Al no usar un LLM, el sistema no traduce ni resume con calidad humana. Hace una agregación editorial básica y gratuita. Si más adelante quieres resúmenes más elaborados en español, puedes crear una versión premium opcional con API key.
