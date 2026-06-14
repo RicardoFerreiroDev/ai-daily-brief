@@ -7,7 +7,7 @@ import archive from '../../data/archive/index.json';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{report.title}</title>
-    <meta name="description" content="Report diario gratuito sobre IA en español generado desde fuentes públicas." />
+    <meta name="description" content="Report diario sobre IA en español generado con Gemini desde fuentes públicas." />
     <style>
       :root {
         color-scheme: light dark;
@@ -128,7 +128,7 @@ import archive from '../../data/archive/index.json';
   <body>
     <div class="container">
       <header>
-        <div class="kicker">AI Daily Brief gratuito</div>
+        <div class="kicker">AI Daily Brief con Gemini</div>
         <h1>{report.title}</h1>
         <p class="summary">{report.executive_summary}</p>
         <p class="meta">Modo: {report.mode} · Idioma: español · Última generación: {report.date}</p>
@@ -178,7 +178,7 @@ import archive from '../../data/archive/index.json';
       </div>
 
       <footer>
-        Generado automáticamente con GitHub Actions usando feeds RSS públicos. No utiliza APIs de pago.
+        Generado automáticamente con GitHub Actions, feeds públicos, arXiv y Gemini API free tier.
       </footer>
     </div>
   </body>

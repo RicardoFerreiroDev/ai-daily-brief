@@ -2,81 +2,28 @@
   "date": "2026-06-14",
   "title": "AI Daily Brief — 2026-06-14",
   "language": "es",
-  "mode": "free-rss-no-llm",
-  "executive_summary": "Report diario gratuito generado a partir de fuentes públicas en inglés sobre IA. No usa API de pago: clasifica noticias y papers con reglas simples, conserva enlaces originales y añade contexto editorial en español.",
+  "mode": "gemini-free-tier",
+  "executive_summary": "Report diario de ejemplo generado para verificar la web. Al ejecutar GitHub Actions con GEMINI_API_KEY, este contenido se sustituirá por noticias y papers reales resumidos en español con Gemini.",
   "news": [
     {
-      "headline": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with…",
-      "why_it_matters": "Importa porque los avances en modelos base suelen trasladarse rápidamente a productos, APIs y herramientas de desarrollo.",
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-01-12"
-    },
-    {
-      "headline": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it’s a stress test for investors, for valuations, and for […]",
-      "why_it_matters": "Importa porque el coste y disponibilidad de cómputo condicionan qué modelos pueden entrenarse y desplegarse.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-      "category": "Infraestructura",
-      "published_date": "2026-06-12"
-    },
-    {
-      "headline": "It’s hot IPO summer, and the MANGOS are ripe",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it’s a stress test for investors, for valuations, and for […]",
-      "why_it_matters": "Importa porque el coste y disponibilidad de cómputo condicionan qué modelos pueden entrenarse y desplegarse.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
-      "category": "Infraestructura",
-      "published_date": "2026-06-12"
-    },
-    {
-      "headline": "Google DeepMind is worried about what happens when millions of agents start to interact",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
-      "why_it_matters": "Importa porque los agentes están llevando la IA desde conversación pasiva hacia ejecución de tareas y automatización real.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-06-11"
-    },
-    {
-      "headline": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series […]",
-      "why_it_matters": "Importa porque puede anticipar cambios técnicos que todavía no han llegado a productos comerciales.",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-      "category": "Investigación",
-      "published_date": "2026-06-13"
-    },
-    {
-      "headline": "As Anthropic suspends access to new models, India debates its AI future",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
-      "why_it_matters": "Importa porque los avances en modelos base suelen trasladarse rápidamente a productos, APIs y herramientas de desarrollo.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-      "category": "Modelos fundacionales",
+      "headline": "Ejemplo de noticia de IA",
+      "summary": "Este es un ejemplo de tarjeta de noticia. Cuando ejecutes el workflow, Gemini seleccionará noticias recientes desde fuentes públicas y redactará el resumen en español.",
+      "why_it_matters": "Sirve para comprobar el diseño y el despliegue de la web antes de generar el primer report real.",
+      "source": "Fuente de ejemplo",
+      "url": "https://example.com",
+      "category": "IA general",
       "published_date": "2026-06-14"
-    },
-    {
-      "headline": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the models for all customers. In […]",
-      "why_it_matters": "Importa porque los avances en modelos base suelen trasladarse rápidamente a productos, APIs y herramientas de desarrollo.",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-06-13"
-    },
-    {
-      "headline": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-      "summary": "Resumen automático gratuito basado en el extracto público de la fuente: Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
-      "why_it_matters": "Importa porque los avances en modelos base suelen trasladarse rápidamente a productos, APIs y herramientas de desarrollo.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-06-13"
     }
   ],
-  "papers": []
+  "papers": [
+    {
+      "title": "Ejemplo de paper de IA",
+      "summary": "Este es un ejemplo de tarjeta de paper. El workflow real consulta arXiv y Gemini redacta una explicación técnica en español.",
+      "technical_relevance": "Sirve para confirmar que la sección de papers aparece correctamente en la página.",
+      "source": "arXiv ejemplo",
+      "url": "https://arxiv.org",
+      "tags": ["paper", "IA general"],
+      "published_date": "2026-06-14"
+    }
+  ]
 }
