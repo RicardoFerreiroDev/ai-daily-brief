@@ -30,7 +30,7 @@ from google.genai import types
 MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 MAX_NEWS = 8
 MAX_PAPERS = 6
-MAX_INPUT_ITEMS = 45
+MAX_INPUT_ITEMS = 80
 
 SOURCES = [
     # Labs / compañías
@@ -47,6 +47,11 @@ SOURCES = [
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "kind": "news"},
     {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "kind": "news"},
     {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "kind": "news"},
+
+    # Búsquedas agregadas gratuitas para cubrir fuentes sin RSS público estable, como Reuters.
+    # No son URLs curadas manualmente: son feeds de búsqueda recurrentes.
+    {"name": "Google News AI Reuters", "url": "https://news.google.com/rss/search?q=artificial%20intelligence%20Reuters%20when%3A7d&hl=en-US&gl=US&ceid=US:en", "kind": "news"},
+    {"name": "Google News AI Research", "url": "https://news.google.com/rss/search?q=artificial%20intelligence%20research%20OR%20DeepMind%20OR%20OpenAI%20OR%20Anthropic%20when%3A7d&hl=en-US&gl=US&ceid=US:en", "kind": "news"},
 ]
 
 ARXIV_QUERY_URL = (
@@ -67,34 +72,94 @@ CATEGORY_RULES = [
     ("Producto y mercado", ["launch", "startup", "funding", "revenue", "product", "app", "enterprise", "customer", "ipo"]),
 ]
 
-IMPORTANT_KEYWORDS = {
-    "release": 4,
-    "launch": 4,
-    "new model": 5,
-    "open source": 4,
-    "benchmark": 3,
-    "agent": 4,
-    "safety": 3,
-    "security": 4,
-    "prompt injection": 5,
-    "regulation": 3,
-    "lawsuit": 3,
-    "funding": 2,
-    "nvidia": 3,
-    "gpu": 3,
-    "chip": 3,
-    "paper": 2,
-    "arxiv": 2,
-    "reasoning": 4,
-    "evaluation": 3,
-    "dataset": 3,
-    "openai": 3,
-    "anthropic": 3,
-    "deepmind": 3,
-    "google": 2,
-    "meta": 2,
-    "microsoft": 2,
+PRIORITY_SOURCES = {
+    "OpenAI News": 12,
+    "Anthropic News": 12,
+    "Google AI Blog": 11,
+    "Google DeepMind Blog": 12,
+    "Meta AI Blog": 8,
+    "Microsoft Research Blog": 8,
+    "MIT Technology Review": 9,
+    "Google News AI Reuters": 10,
+    "Google News AI Research": 8,
+    "arXiv": 8,
+    "The Verge AI": 6,
+    "TechCrunch AI": 5,
+    "VentureBeat AI": 5,
+    "Ars Technica": 6,
 }
+
+IMPORTANT_KEYWORDS = {
+    # Modelos y arquitecturas
+    "diffusiongemma": 30,
+    "diffusion": 10,
+    "autoregressive": 9,
+    "mixture of experts": 9,
+    "moe": 7,
+    "open model": 8,
+    "open-weight": 8,
+    "open weights": 8,
+    "new model": 8,
+    "foundation model": 7,
+    "multimodal": 7,
+    "reasoning": 8,
+    "inference": 7,
+    "post-training": 6,
+
+    # Agentes, evaluación y seguridad
+    "agent": 8,
+    "agents": 8,
+    "workflow": 6,
+    "tool use": 6,
+    "coding agent": 9,
+    "benchmark": 8,
+    "evaluation": 7,
+    "dataset": 6,
+    "safety": 8,
+    "alignment": 8,
+    "security": 8,
+    "prompt injection": 10,
+    "jailbreak": 8,
+    "red team": 7,
+    "vulnerability": 7,
+
+    # Infraestructura y mercado
+    "nvidia": 8,
+    "gpu": 7,
+    "chip": 7,
+    "data center": 7,
+    "datacenter": 7,
+    "compute": 6,
+    "energy": 6,
+    "ipo": 7,
+    "funding": 4,
+    "revenue": 4,
+
+    # Sociedad, regulación y empleo
+    "reuters/ipsos": 12,
+    "ipsos": 9,
+    "poll": 7,
+    "survey": 7,
+    "jobs": 7,
+    "labor": 6,
+    "worker": 5,
+    "employment": 6,
+    "regulation": 7,
+    "policy": 6,
+    "copyright": 6,
+    "lawsuit": 5,
+
+    # Fuentes/actores relevantes
+    "openai": 6,
+    "anthropic": 6,
+    "deepmind": 7,
+    "google": 4,
+    "meta": 4,
+    "microsoft": 4,
+    "reuters": 8,
+    "arxiv": 5,
+}
+
 
 
 def clean_html(text: str) -> str:
@@ -139,22 +204,28 @@ def classify(title: str, summary: str) -> str:
 
 def score_item(item: dict[str, Any]) -> int:
     text = f"{item['title']} {item['summary_original']} {item['source']}".lower()
-    score = 0
+    score = PRIORITY_SOURCES.get(item.get("source", ""), 0)
+
     for keyword, weight in IMPORTANT_KEYWORDS.items():
         if keyword in text:
             score += weight
+
+    # Mantener una sección de papers sólida sin eclipsar las noticias principales.
     if item["kind"] == "paper":
-        score += 3
+        score += 6
+
+    # Bonus de actualidad.
     try:
         age_days = (dt.date.today() - dt.date.fromisoformat(item["published_date"])).days
         if age_days <= 1:
-            score += 6
+            score += 8
         elif age_days <= 3:
-            score += 4
+            score += 5
         elif age_days <= 7:
-            score += 2
+            score += 3
     except Exception:
         pass
+
     return score
 
 
@@ -215,8 +286,8 @@ def collect_papers() -> list[dict[str, Any]]:
 
 
 def collect_items() -> list[dict[str, Any]]:
-    news = sorted(collect_news(), key=lambda x: (x["score"], x["published_date"]), reverse=True)[:28]
-    papers = sorted(collect_papers(), key=lambda x: (x["score"], x["published_date"]), reverse=True)[:17]
+    news = sorted(collect_news(max_items_per_feed=18), key=lambda x: (x["score"], x["published_date"]), reverse=True)[:50]
+    papers = sorted(collect_papers(), key=lambda x: (x["score"], x["published_date"]), reverse=True)[:30]
     return news + papers
 
 
@@ -275,7 +346,7 @@ def generate_with_gemini(items: list[dict[str, Any]]) -> dict[str, Any]:
 
     today = dt.date.today().isoformat()
     compact_items = []
-    for item in sorted(items, key=lambda x: (x["kind"] != "paper", x["score"]), reverse=True)[:MAX_INPUT_ITEMS]:
+    for item in sorted(items, key=lambda x: (x["score"], x["published_date"]), reverse=True)[:MAX_INPUT_ITEMS]:
         compact_items.append({
             "kind": item["kind"],
             "title": item["title"],
@@ -296,6 +367,9 @@ Genera un AI Daily Brief en español para la fecha {today}.
 Objetivo:
 - Selecciona las noticias de IA más importantes a partir del input.
 - Selecciona papers interesantes de arXiv; la sección de papers NO debe estar vacía si hay papers en el input.
+- Prioriza fuentes primarias y de alta señal: OpenAI, Anthropic, Google AI, Google DeepMind, Meta AI, Microsoft Research, MIT Technology Review, Reuters vía Google News y arXiv.
+- Da prioridad a avances técnicos de arquitectura/modelos, agentes, evaluación, seguridad, infraestructura, regulación y señales sociales/económicas importantes.
+- Si aparece una noticia sobre modelos de difusión para texto, DiffusionGemma, MoE, generación no autoregresiva o encuestas Reuters/Ipsos sobre IA, trátala como candidata de alta relevancia.
 - Redacta en español claro, técnico y conciso.
 - No inventes URLs, fuentes, autores ni claims no contenidos en el input.
 - Puedes conservar nombres propios y títulos de papers en inglés si es lo natural, pero los resúmenes deben estar en español.
