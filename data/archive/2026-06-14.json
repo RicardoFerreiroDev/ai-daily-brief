@@ -1,170 +1,172 @@
 {
   "date": "2026-06-14",
-  "title": "AI Daily Brief: Agentes, Seguridad y Nuevos Modelos",
+  "title": "AI Daily Brief",
   "language": "es",
   "mode": "gemini-free-tier",
-  "executive_summary": "Esta edición del AI Daily Brief cubre lanzamientos clave de agentes de IA como Cowork de Anthropic y el nuevo Slackbot de Salesforce, junto con preocupaciones emergentes sobre la interacción de millones de agentes y la seguridad de modelos avanzados. También se destacan avances en la investigación de IA, incluyendo benchmarks para agentes de IA en genómica y la orquestación de conocimiento científico, así como debates sobre el futuro de la IA en India y las implicaciones regulatorias globales.",
+  "executive_summary": "Este resumen diario de IA destaca avances en la evaluación de agentes de IA para análisis genómicos, la arquitectura de agentes recursivos y la preocupación por la interacción masiva de agentes. También se abordan las implicaciones sociales y económicas de la IA, como la creciente cautela pública ante el auge de los centros de datos de IA y el temor al desplazamiento laboral. En el ámbito de la investigación, se presentan nuevas metodologías para la evaluación de agentes, la mejora del razonamiento y la gestión de la memoria en entornos dinámicos.",
   "news": [
     {
-      "headline": "Anthropic lanza Cowork, un agente de escritorio de Claude que funciona en tus archivos sin necesidad de codificación",
-      "summary": "Anthropic ha lanzado Cowork, una nueva capacidad de agente de IA que extiende el poder de su herramienta Claude Code a usuarios no técnicos. La compañía desarrolló la función en aproximadamente una semana y media, utilizando en gran medida Claude Code. Este lanzamiento posiciona a Anthropic para competir en el mercado de herramientas de productividad impulsadas por IA.",
-      "why_it_matters": "Marca un punto de inflexión en la carrera por ofrecer agentes de IA prácticos a usuarios generales, permitiendo la realización de tareas no técnicas de manera similar a como los desarrolladores usan Claude Code. La función está disponible como vista previa para suscriptores de Claude Max.",
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-01-12"
-    },
-    {
       "headline": "Google DeepMind está preocupado por lo que sucede cuando millones de agentes comienzan a interactuar",
-      "summary": "Google DeepMind está financiando investigaciones sobre los peligros potenciales de situaciones donde millones de agentes de IA interactúan entre sí en línea. Rohin Shah, director de investigación de seguridad y alineación de AGI de la compañía, señala la llegada masiva de agentes que pueden realizar tareas sin supervisión humana y seguir instrucciones de otros.",
-      "why_it_matters": "Plantea preocupaciones sobre la complejidad y los riesgos de seguridad asociados con la proliferación de agentes de IA autónomos que interactúan en el ecosistema digital, un área crítica para la investigación de seguridad y alineación de IA.",
+      "summary": "Google DeepMind está financiando investigaciones sobre los peligros potenciales de situaciones donde millones de agentes de IA interactúan en línea. Rohin Shah, director de investigación de seguridad y alineación de AGI de la compañía, expresó su preocupación por la llegada masiva de agentes que pueden realizar tareas sin supervisión humana y seguir instrucciones de otros.",
+      "why_it_matters": "Esta noticia resalta una preocupación emergente y crítica sobre la escalabilidad y el comportamiento colectivo de los sistemas de IA. La interacción masiva de agentes podría tener consecuencias impredecibles y difíciles de gestionar, lo que subraya la importancia de la investigación en seguridad y alineación de IA.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "category": "Agentes y herramientas",
       "published_date": "2026-06-11"
     },
     {
-      "headline": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
-      "summary": "Según el Wall Street Journal, la directiva de control de exportaciones que llevó a Anthropic a cortar el acceso a Fable 5 y Mythos 5 fue impulsada en parte por investigaciones de ciberseguridad de Amazon y conversaciones entre el CEO Andy Jassy y la Casa Blanca. El informe de Amazon afirma que el acceso a estos modelos podría representar un riesgo.",
-      "why_it_matters": "Destaca la influencia de la investigación de seguridad corporativa en las decisiones gubernamentales sobre el control de exportaciones de IA, y las implicaciones de seguridad nacional de modelos avanzados.",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-      "category": "Investigación",
-      "published_date": "2026-06-13"
+      "headline": "Los estadounidenses desconfían del auge de los centros de datos impulsados por IA, según encuesta de Reuters/Ipsos",
+      "summary": "Una encuesta reciente de Reuters/Ipsos revela que los ciudadanos estadounidenses muestran cautela ante la rápida expansión de los centros de datos impulsados por la inteligencia artificial. La preocupación se centra en el impacto de esta infraestructura en el medio ambiente y la sociedad.",
+      "why_it_matters": "Este dato es crucial para entender la percepción pública de la IA y su infraestructura asociada. La resistencia o preocupación pública puede influir en la regulación, la inversión y la planificación de la infraestructura de IA a nivel nacional.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWxuRUxydEd0V09kUXFaeXVQSVRidjljZE5zdXB0WXd3ZE5GbERPWUdFWjE0bWM0ZFFNU2JMVmFYRVRaWFlTczZ6N1haSElBNG11Y3BZWUt1cnRpN1g0WnVQTkc5Wno4bXZRRk9lNUIxMUg4S3g2MDZrdW5nQUppWkUxeEJoM0lfSjFBNFdlVVJEUEFQdDRGRWhZb3owbU5EdDBoMk05SHo2dEFMdnFF?oc=5",
+      "category": "Infraestructura",
+      "published_date": "2026-06-11"
     },
     {
-      "headline": "As Anthropic suspends access to new models, India debates its AI future",
-      "summary": "Mientras Anthropic suspende el acceso a sus modelos más recientes, líderes tecnológicos en India debaten si este episodio es una llamada de atención para las ambiciones de IA del país. La decisión de suspender el acceso a modelos avanzados genera discusiones sobre la estrategia nacional de IA y la dependencia de tecnologías extranjeras.",
-      "why_it_matters": "Subraya el impacto global de las decisiones de grandes empresas de IA y cómo estas pueden influir en las políticas y el desarrollo de la IA a nivel nacional, especialmente en economías emergentes como la India.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "headline": "La mitad de los estadounidenses teme que la IA pueda dejar sin trabajo a alguien en su hogar, según encuesta de Reuters/Ipsos",
+      "summary": "Una encuesta de Reuters/Ipsos indica que el 50% de los estadounidenses expresan temor a que la inteligencia artificial pueda resultar en la pérdida de empleo para algún miembro de su hogar. Este sentimiento refleja una creciente ansiedad sobre el impacto de la IA en el mercado laboral.",
+      "why_it_matters": "Esta preocupación generalizada sobre el desplazamiento laboral por IA es un indicador social y económico clave. Subraya la necesidad de políticas proactivas para la reconversión laboral, la educación y la adaptación del mercado de trabajo a la era de la IA.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPblhOcEVuUk1qbFpIeVcxYjkxWVpyY18xSGZQWUpjblZtMDl4NWJ2U2tJYzlwa09TRFh1R0Z6NjZhQmFTdUw1a005RThEZ0ZiVjVuUloxaW9PTXYyaWY2UExqMGFRQ1ZpNU5mMFQ0Nm1HMnpKd2h4amNxbkd6UzgtMjRGdnVqX0VRVnp5V0tiUGRmdktxSWN4djNVRnUzLU8yanotSHhacjVtOHhocHBsbnl3b0pqcUJZLWlETWVZTUhOR0xrWkhKbk55WTB4dEluUUpV?oc=5",
       "category": "IA general",
-      "published_date": "2026-06-14"
+      "published_date": "2026-06-10"
     },
     {
-      "headline": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-      "summary": "Nous Research ha lanzado NousCoder-14B, un nuevo modelo de programación de código abierto que compite con sistemas propietarios más grandes. Entrenado en solo cuatro días, este modelo llega en un momento cargado, con Claude Code de Anthropic dominando la discusión sobre asistentes de codificación de IA.",
-      "why_it_matters": "Demuestra la rápida evolución de los asistentes de desarrollo de software asistidos por IA y la intensa competencia en este campo. La disponibilidad de modelos de código abierto como NousCoder-14B democratiza el acceso a herramientas potentes para desarrolladores.",
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-01-07"
+      "headline": "OpenAI lanza nuevos cursos de Academy para la próxima era del trabajo",
+      "summary": "OpenAI ha introducido tres nuevos cursos en su plataforma Academy diseñados para ayudar a las personas a desarrollar habilidades prácticas en IA, crear flujos de trabajo repetibles y aplicar agentes de IA en sus tareas diarias. Estos cursos buscan preparar a la fuerza laboral para la integración de la IA.",
+      "why_it_matters": "La iniciativa de OpenAI de ofrecer formación práctica en IA y agentes es fundamental para la adaptación de la fuerza laboral. Aborda la brecha de habilidades y promueve la adopción efectiva de herramientas de IA en diversos sectores.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-06-12"
     },
     {
-      "headline": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
-      "summary": "Anthropic ha bloqueado el acceso a sus modelos Fable 5 y Mythos 5 para todos los clientes, tanto dentro como fuera de EE. UU., debido a preocupaciones de seguridad nacional ordenadas por el gobierno. La compañía expresó su desacuerdo con la medida, argumentando que un \"jailbreak\" potencial y limitado no debería justificar la retirada de un modelo comercial.",
-      "why_it_matters": "Representa una acción regulatoria significativa que afecta la disponibilidad de modelos de IA avanzados, destacando las tensiones entre la innovación, la seguridad nacional y las preocupaciones comerciales en el desarrollo de IA.",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "headline": "OpenAI planea adquirir Ona para expandir Codex con entornos seguros y persistentes en la nube",
+      "summary": "OpenAI ha anunciado sus planes de adquirir Ona, una medida que busca integrar entornos de nube seguros y persistentes para expandir las capacidades de Codex. Esta adquisición permitirá la ejecución de agentes de IA de larga duración en flujos de trabajo empresariales.",
+      "why_it_matters": "La adquisición de Ona por parte de OpenAI representa un movimiento estratégico para fortalecer su oferta de agentes de IA empresariales. La integración de entornos persistentes y seguros es clave para la adopción de IA en aplicaciones críticas y de larga duración.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-06-11"
+    },
+    {
+      "headline": "Anthropic retira sus modelos de IA más potentes tras orden del gobierno de EE. UU.",
+      "summary": "Anthropic ha suspendido el acceso a sus modelos más avanzados, Fable y Mythos, tras una directiva del gobierno de EE. UU. que prohíbe su uso por parte de ciudadanos extranjeros debido a preocupaciones de seguridad nacional. La empresa expresó su desacuerdo con la medida, considerándola desproporcionada ante un potencial \"jailbreak\" limitado.",
+      "why_it_matters": "Este evento subraya las tensiones entre el desarrollo de IA de vanguardia y las preocupaciones de seguridad nacional. La intervención gubernamental y la suspensión de modelos potentes plantean interrogantes sobre la regulación, el control de exportaciones y el futuro de la colaboración internacional en IA.",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
       "category": "Seguridad y privacidad",
       "published_date": "2026-06-13"
     },
     {
-      "headline": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-      "summary": "Salesforce ha lanzado una versión reconstruida de Slackbot, transformándolo de una herramienta de notificación a un agente de IA capaz de buscar datos empresariales, redactar documentos y actuar en nombre de los empleados. Este movimiento es el más agresivo de Salesforce para posicionar Slack en el centro del movimiento de \"IA agentica\".",
-      "why_it_matters": "Indica una intensificación de la competencia en el espacio de la IA para el lugar de trabajo, con Salesforce buscando integrar capacidades de agentes de IA de manera profunda en sus productos para competir con ofertas de Microsoft y Google.",
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-01-13"
+      "headline": "El CEO de Amazon planteó preocupaciones sobre modelos de Anthropic antes de la intervención del gobierno",
+      "summary": "Según informes, el CEO de Amazon, Andy Jassy, habría compartido preocupaciones sobre la seguridad de los modelos de IA de Anthropic con funcionarios del gobierno de EE. UU. Estas conversaciones habrían contribuido a la orden de restringir el acceso a modelos como Fable y Mythos.",
+      "why_it_matters": "Este desarrollo indica la creciente influencia de las grandes corporaciones tecnológicas en la formulación de políticas de IA y seguridad. La interacción entre líderes de la industria y el gobierno puede moldear significativamente la dirección de la regulación y el desarrollo de la IA.",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "category": "Seguridad y privacidad",
+      "published_date": "2026-06-13"
     },
     {
-      "headline": "OpenAI faces investigation from state attorneys general",
-      "summary": "OpenAI está siendo investigada por fiscales generales de varios estados de EE. UU. Los detalles sobre los estados involucrados no están claros, pero las indagaciones abarcan desde las políticas publicitarias de OpenAI hasta su manejo de datos de salud.",
-      "why_it_matters": "Refleja un creciente escrutinio regulatorio sobre las principales empresas de IA, lo que podría tener implicaciones significativas en sus operaciones, desarrollo de productos y prácticas de manejo de datos.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-      "category": "IA general",
-      "published_date": "2026-06-13"
+      "headline": "El regulador global pide controles más estrictos sobre la IA agentica en finanzas",
+      "summary": "Un organismo de control global ha emitido un llamado a favor de regulaciones más estrictas para el uso de la inteligencia artificial agentica en el sector financiero. La recomendación busca mitigar los riesgos asociados con la toma de decisiones automatizada y la complejidad de estos sistemas.",
+      "why_it_matters": "La creciente adopción de IA en finanzas requiere una supervisión regulatoria cuidadosa. Las recomendaciones de controles más estrictos subrayan la necesidad de marcos de gobernanza robustos para garantizar la estabilidad financiera y la protección del consumidor.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZjQ0MVEtX0xuUUFuYl90T1RVeVZ1RzZUMXR4a3kzQjFsR2tKSTRWVU9fUUpkZkNfZUgwT0ltWGg2VE1OeUVDTjVMRzdWUE1iTkJUdTRIQ1BVc1l6blRQUUc4dXZxNG1nTUd1R3NLRGhaYWZIRHBrQlRtckxDSUxEbFRuNlA0RDVtUjFkRkpubVVBNTN0SWQ4dVJHbGZkNFMwN3ZrTWdGajhCaDBUdGRJM2d1OA?oc=5",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-06-10"
     }
   ],
   "papers": [
     {
       "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
-      "summary": "Se introduce EpiBench, un benchmark verificable para el análisis de epigenómica a corto plazo. EpiBench evalúa si los agentes pueden tomar decisiones de análisis bien definidas a partir de estados de flujo de trabajo realistas y devolver respuestas determinísticamente graduables. Ningún sistema evaluado superó la mayoría de los intentos.",
-      "technical_relevance": "Presenta un nuevo benchmark para evaluar la fiabilidad de los agentes de IA en tareas científicas complejas como la epigenómica, identificando las limitaciones actuales de modelos como GPT-5.5 y Claude Opus 4.8 Max en la toma de decisiones científicas profundas.",
+      "summary": "Se introduce EpiBench, un benchmark verificable para el análisis de epigenómica a corto plazo. EpiBench evalúa si los agentes pueden tomar decisiones de análisis bien definidas a partir de estados de flujo de trabajo realistas y devolver respuestas determinísticamente calificables. El benchmark incluye 106 evaluaciones en flujos de trabajo CUT&Tag/CUT&RUN, ATAC-seq, ChIP-seq y metilación del ADN.",
+      "technical_relevance": "Este paper aborda la evaluación rigurosa de agentes de IA en un dominio científico complejo como la epigenómica. La introducción de un benchmark verificable y la evaluación de modelos de vanguardia como GPT-5.5 y Claude Opus son relevantes para el avance en la fiabilidad y aplicabilidad de los agentes de IA en la investigación científica.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.13602v1",
       "tags": [
-        "AI Agents",
-        "Benchmarking",
-        "Epigenomics",
-        "Scientific AI"
-      ],
-      "published_date": "2026-06-11"
-    },
-    {
-      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
-      "summary": "Se introduce Agents-K1, un pipeline de orquestación de conocimiento que convierte documentos en grafos de conocimiento nativos para agentes. El sistema procesa 2.46 millones de artículos científicos para producir Scholar-KG, un grafo de conocimiento científico a gran escala.",
-      "technical_relevance": "Aborda la limitación de los agentes de investigación actuales al proponer un marco para la orquestación de conocimiento científico, yendo más allá de las simples menciones o citas para capturar entidades, afirmaciones y linajes de métodos esenciales para el razonamiento científico.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.13669v1",
-      "tags": [
-        "Knowledge Graphs",
-        "AI Agents",
-        "Scientific Knowledge",
-        "LLMs",
-        "Information Extraction"
+        "agentes de IA",
+        "evaluación",
+        "epigenómica",
+        "benchmarking",
+        "modelos fundacionales"
       ],
       "published_date": "2026-06-11"
     },
     {
       "title": "Recursive Agent Harnesses",
-      "summary": "Se estudia el patrón de 'Recursive Agent Harness' (RAH), una extensión basada en código de la recursión de modelos, donde un agente padre genera y ejecuta scripts que crean subagentes en paralelo. RAH mejora significativamente el rendimiento de los agentes de codificación en tareas de razonamiento de largo contexto.",
-      "technical_relevance": "Propone un nuevo patrón de arquitectura para agentes de IA, 'Recursive Agent Harness', que mejora la capacidad de razonamiento de largo contexto y el rendimiento en tareas de codificación, demostrando la eficacia de la recursión a nivel de agente sobre la recursión de llamadas a modelos.",
+      "summary": "Los modelos de lenguaje recursivos (RLMs) demostraron que la recursión sobre llamadas a modelos es una estrategia efectiva para el razonamiento de contexto largo. Este trabajo estudia el patrón donde la unidad recursiva es un \"agent harness\" completo con herramientas de sistema de archivos, ejecución de código y planificación. Se denomina \"Recursive Agent Harness\" (RAH) y se enmarca como recursión de harness, la extensión \"code-first\" a la recursión de modelo de los RLMs.",
+      "technical_relevance": "Este paper propone una arquitectura de agentes recursivos (RAH) que extiende los modelos de lenguaje recursivos (RLMs) al incorporar \"agent harnesses\" completos. La mejora del baseline de agentes de codificación de un 71.75% a un 81.36% en Oolong-Synthetic, especialmente con un backbone fijo, demuestra la efectividad de la arquitectura de harness para el razonamiento de contexto largo y la ejecución de código.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.13643v1",
       "tags": [
-        "AI Agents",
-        "Recursion",
-        "Long Context",
-        "Code Generation",
-        "Agent Architecture"
+        "agentes de IA",
+        "recursión",
+        "contexto largo",
+        "ejecución de código",
+        "modelos fundacionales"
       ],
       "published_date": "2026-06-11"
     },
     {
-      "title": "SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation",
-      "summary": "Se introduce SkMTEB, el primer benchmark de incrustaciones de texto masivo para el eslovaco, un idioma de bajos recursos. Se evalúan 31 modelos de incrustación y se desarrollan modelos locales eficientes, e5-sk-small y e5-sk-large, que logran un rendimiento competitivo.",
-      "technical_relevance": "Contribuye al campo de las incrustaciones de texto para idiomas de bajos recursos, presentando un benchmark exhaustivo y modelos adaptados para el eslovaco, lo que permite aplicaciones como la búsqueda semántica y la generación aumentada por recuperación en este idioma.",
+      "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in Generative Recommenders",
+      "summary": "Los LLMs aumentados con búsqueda recuperan cada vez más contenido web en vivo para recomendaciones. Esto introduce el riesgo de que los recomendadores generativos consuman contenido web \"contaminado\", como reseñas falsas y páginas promocionales diseñadas para engañar. Se introduce FORGE, un benchmark para medir la promoción de productos falsos bajo contaminación controlada de contenido web.",
+      "technical_relevance": "Este trabajo aborda un problema crítico de seguridad y fiabilidad en los sistemas de recomendación basados en LLMs. La introducción de FORGE y la demostración de la vulnerabilidad de múltiples LLMs a la contaminación de contenido web (hasta un 73.8% de \"fooling rate\" con reemplazo completo) son importantes para el desarrollo de sistemas de recomendación más robustos.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.13647v1",
-      "tags": [
-        "Embeddings",
-        "Low-Resource Languages",
-        "Slovak",
-        "NLP",
-        "Benchmark"
-      ],
-      "published_date": "2026-06-11"
-    },
-    {
-      "title": "Operads for compositional reasoning in LLMs",
-      "summary": "Se proponen las operads como un marco matemático para la descomposición de preguntas en LLMs, proporcionando una base rigurosa para la estrategia de dividir consultas complejas en subconsultas más simples. Se introduce la noción de consistencia operádica para medir fallos de razonamiento.",
-      "technical_relevance": "Formaliza matemáticamente la descomposición de preguntas en LLMs utilizando operads, ofreciendo una nueva perspectiva para el razonamiento composicional y proponiendo la 'consistencia operádica' como una métrica de confianza y precisión para los modelos de QA.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.13634v1",
+      "url": "https://arxiv.org/abs/2606.13610v1",
       "tags": [
         "LLMs",
-        "Reasoning",
-        "Question Answering",
-        "Formal Methods",
-        "Compositionality"
+        "seguridad",
+        "recomendadores",
+        "evaluación",
+        "benchmarking",
+        "contenido web"
       ],
       "published_date": "2026-06-11"
     },
     {
-      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
-      "summary": "Se presenta ArogyaBodha, un dataset multilingüe multimodal para razonamiento médico, y ArogyaSutra, un framework multi-agente que integra razonamiento multimodal y multilingüe para aplicaciones de salud en idiomas Indic. El sistema mejora la precisión del razonamiento médico multilingüe.",
-      "technical_relevance": "Aborda la brecha en el razonamiento médico multimodal y multilingüe, especialmente para idiomas de bajos recursos como los Indic, proponiendo un dataset y un framework multi-agente que mejora el acceso a la asistencia sanitaria impulsada por IA.",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "summary": "Los agentes LLM aumentados con herramientas suelen depender de llamadas atómicas paso a paso. Se introduce HyperTool, una interfaz de herramienta unificada y ejecutable que cambia la unidad de ejecución de herramientas visible para el modelo. Un agente invoca HyperTool con un bloque de código que puede llamar a herramientas existentes, manipular valores y pasar resultados intermedios localmente, integrando subrutinas de herramientas determinísticas en una sola llamada externa.",
+      "technical_relevance": "HyperTool aborda la ineficiencia de las llamadas a herramientas paso a paso en agentes LLM. Al unificar subrutinas de herramientas en una sola llamada externa, reduce el consumo de contexto y la carga de gestión de flujo de datos para el modelo. La mejora significativa en precisión (del 15.69% al 35.29% en Qwen3-32B) demuestra la efectividad de esta nueva interfaz para el uso de herramientas multi-paso.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.13572v1",
+      "url": "https://arxiv.org/abs/2606.13663v1",
       "tags": [
-        "Multimodal AI",
-        "Medical AI",
-        "Multi-Agent Systems",
-        "Indic Languages",
-        "Reasoning"
+        "agentes de IA",
+        "herramientas",
+        "LLMs",
+        "ejecución de código",
+        "modelos fundacionales"
+      ],
+      "published_date": "2026-06-11"
+    },
+    {
+      "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
+      "summary": "Se propone la consistencia operádica (OC) como una señal de diagnóstico sin etiquetas para fallos de razonamiento composicional en LLMs. OC mide si la respuesta directa de un modelo a una consulta composicional concuerda con la respuesta que produce al componer una descomposición declarada de la misma consulta. Se demuestra que OC está fuertemente correlacionada con la precisión en múltiples datasets de QA multi-hop.",
+      "technical_relevance": "Este paper introduce un método novedoso y sin etiquetas (OC) para evaluar la fiabilidad del razonamiento composicional en LLMs. La alta correlación con la precisión (Pearson r >= 0.86) y su consistencia a través de diferentes datasets y modelos lo convierten en una métrica de evaluación prometedora, superando a otras señales de confianza.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13649v1",
+      "tags": [
+        "LLMs",
+        "razonamiento",
+        "evaluación",
+        "composicionalidad",
+        "modelos fundacionales"
+      ],
+      "published_date": "2026-06-11"
+    },
+    {
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "summary": "Se argumenta que el cuello de botella para el descubrimiento científico autónomo está cambiando del diseño de flujos de trabajo de agentes a la ingeniería de entornos de agentes. Se presenta EurekAgent, un sistema de agentes con entorno diseñado para el descubrimiento científico autónomo impulsado por métricas, que aborda la ingeniería de permisos, artefactos y presupuestos.",
+      "technical_relevance": "Este trabajo redefine el enfoque para el descubrimiento científico autónomo, pasando del diseño de algoritmos de agentes a la ingeniería del entorno en el que operan. EurekAgent, con su enfoque en la ingeniería de entornos (permisos, artefactos, presupuesto), ofrece una nueva perspectiva para amplificar comportamientos productivos y suprimir los perjudiciales en agentes de IA.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13662v1",
+      "tags": [
+        "agentes de IA",
+        "descubrimiento científico",
+        "ingeniería de entornos",
+        "autonomía",
+        "modelos fundacionales"
       ],
       "published_date": "2026-06-11"
     }
