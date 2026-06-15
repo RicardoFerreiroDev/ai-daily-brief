@@ -1,165 +1,165 @@
 {
   "date": "2026-06-15",
-  "title": "AI Daily Brief: Avances en Modelos de Difusión, Agentes y Regulación",
+  "title": "AI Daily Brief",
   "language": "es",
   "mode": "gemini-free-tier",
-  "executive_summary": "Esta edición del AI Daily Brief destaca los avances en la comprensión del funcionamiento interno de los modelos de difusión, la creciente preocupación por la interacción de millones de agentes de IA, y las implicaciones regulatorias y de seguridad de la IA. Se analizan nuevos benchmarks para evaluar la alineación de razonamiento y la adaptación a normas sociales, así como la optimización de infraestructura para modelos de IA. La noticia sobre la preocupación de Google DeepMind por la interacción de agentes y la prohibición de modelos de Anthropic por parte del gobierno de EE. UU. son puntos clave.",
+  "executive_summary": "Este informe diario de IA destaca los avances en la arquitectura de modelos de difusión, la alineación de razonamiento en modelos multimodales y la síntesis directa en flujos de trabajo de agentes. También aborda las preocupaciones sobre la infraestructura de centros de datos impulsada por IA y la creciente complejidad de la interacción entre millones de agentes de IA. Se discuten las implicaciones regulatorias y de seguridad, incluyendo la necesidad de gobernanza en el código abierto y las preocupaciones sobre la seguridad de los modelos de IA.",
   "news": [
     {
       "headline": "Google DeepMind está preocupado por lo que sucede cuando millones de agentes comienzan a interactuar",
-      "summary": "Google DeepMind está financiando investigaciones sobre los peligros potenciales de situaciones donde millones de agentes de IA interactúan entre sí en línea. Rohin Shah, director de investigación de seguridad y alineación de AGI de la compañía, señala la preocupación por la llegada masiva de agentes que pueden realizar tareas sin supervisión humana y seguir instrucciones de otros.",
-      "why_it_matters": "La creciente autonomía y proliferación de agentes de IA plantea desafíos significativos en cuanto a su comportamiento colectivo, seguridad y el potencial de interacciones imprevistas a gran escala.",
+      "summary": "Google DeepMind está financiando investigaciones sobre los peligros potenciales de situaciones donde millones de agentes de IA interactúan entre sí en línea. Según Rohin Shah, director de investigación de seguridad y alineación de AGI de la compañía, la llegada al mercado masivo de agentes que pueden realizar tareas sin supervisión humana y seguir instrucciones dadas por otros presenta desafíos significativos.",
+      "why_it_matters": "La creciente interconexión y autonomía de los agentes de IA plantea riesgos de comportamiento emergente y efectos sistémicos que requieren una comprensión y mitigación proactivas.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "category": "Agentes y herramientas",
       "published_date": "2026-06-11"
     },
     {
-      "headline": "Anthropic retira el acceso a sus modelos más nuevos tras orden de EE. UU.",
-      "summary": "Anthropic ha suspendido el acceso a sus modelos más recientes, Claude Fable 5 y Mythos 5, a nivel mundial tras una orden del gobierno de EE. UU. por preocupaciones de seguridad nacional. La prohibición afecta a todos los usuarios, incluidos los empleados de Anthropic, y se relaciona con la preocupación de que estos modelos puedan ser explotados.",
-      "why_it_matters": "Este evento subraya las crecientes tensiones entre el desarrollo de IA avanzada y las preocupaciones de seguridad nacional, así como el poder de las regulaciones gubernamentales para impactar el acceso y despliegue de tecnologías de IA.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
-      "category": "Seguridad y privacidad",
-      "published_date": "2026-06-13"
-    },
-    {
-      "headline": "Los estadounidenses desconfían del auge de los centros de datos impulsados por IA, según encuesta de Reuters/Ipsos",
-      "summary": "Una encuesta reciente de Reuters/Ipsos revela que la mitad de los estadounidenses temen que la IA pueda dejar a alguien en su hogar sin trabajo. Esta preocupación se alinea con el rápido crecimiento de la infraestructura de centros de datos necesaria para soportar la IA.",
-      "why_it_matters": "La percepción pública sobre el impacto laboral de la IA y la infraestructura asociada es crucial para la adopción y regulación de estas tecnologías, afectando la confianza y la aceptación social.",
+      "headline": "Schneider Electric, Foxconn se asocian en infraestructura de centros de datos de IA",
+      "summary": "Schneider Electric y Foxconn han anunciado una asociación estratégica para desarrollar y suministrar infraestructura para centros de datos impulsados por IA. Esta colaboración busca abordar la creciente demanda de potencia computacional necesaria para entrenar y ejecutar modelos de IA a gran escala.",
+      "why_it_matters": "La demanda de centros de datos para IA está en aumento, y las alianzas entre grandes actores de la industria son cruciales para construir la infraestructura necesaria, abordando tanto la eficiencia como la escalabilidad.",
       "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPblhOcEVuUk1qbFpIeVcxYjkxWVpyY18xSGZQWUpjblZtMDl4NWJ2U2tJYzlwa09TRFh1R0Z6NjZhQmFTdUw1a005RThEZ0ZiVjVuUloxaW9PTXYyaWY2UExqMGFRQ1ZpNU5mMFQ0Nm1HMnpKd2h4amNxbkd6UzgtMjRGdnVqX0VRVnp5V0tiUGRmdktxSWN4djNVRnUzLU8yanotSHhacjVtOHhocHBsbnl3b0pqcUJZLWlETWVZTUhOR0xrWkhKbk55WTB4dEluUUpV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV0hlS2tYZWRJNXBjdklpV1R6OHVaMFFQcFBJenRILVhJSW1JU2YtWVo3dnc2T1liYS1meHdHM2MzZWpzb2oycVJ2anlxWnNwN3RNdUpia25CLWFFN0xtYmVtR1lEVmYzNk5welRFbXlNUUJ0R2pnc2V1QnhyUGY0LWphbW44elBKNVFkQ3Mtd2V3YkFZRmRITDhwdnlUR09ReXhNcXpDdkJDUV8xeS1TSEdjdWdveFlyN044?oc=5",
       "category": "Infraestructura",
-      "published_date": "2026-06-11"
+      "published_date": "2026-06-15"
     },
     {
-      "headline": "SpaceX, Anthropic y OpenAI: un verano de OPIs candentes",
-      "summary": "El mercado de OPIs (Ofertas Públicas Iniciales) está de vuelta, liderado por un nuevo acrónimo: MANGOS (Meta, Anthropic, Nvidia, Google, OpenAI, SpaceX). Varias de estas empresas se dirigen a los mercados públicos, lo que supone una prueba de estrés para inversores y valoraciones.",
-      "why_it_matters": "La entrada de gigantes de la IA en los mercados públicos indica una madurez y un interés inversor significativo en el sector, con implicaciones para la competencia y la financiación futura de la investigación y el desarrollo en IA.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-      "category": "Infraestructura",
-      "published_date": "2026-06-12"
-    },
-    {
-      "headline": "OpenAI lanza nuevos cursos de Academy para la próxima era del trabajo",
-      "summary": "OpenAI presenta tres cursos de Academy diseñados para ayudar a las personas a desarrollar habilidades prácticas en IA, crear flujos de trabajo repetibles y aplicar agentes en el trabajo diario. Estos cursos buscan capacitar a la fuerza laboral para la integración de la IA.",
-      "why_it_matters": "La formación y capacitación en IA son fundamentales para la adaptación de la fuerza laboral a las nuevas tecnologías, asegurando que los individuos puedan aprovechar las herramientas de IA de manera efectiva y segura.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-06-12"
-    },
-    {
-      "headline": "OpenAI planea adquirir Ona",
-      "summary": "OpenAI planea adquirir Ona para expandir Codex con entornos seguros y persistentes en la nube, permitiendo agentes de IA de larga duración en flujos de trabajo empresariales. Esta adquisición busca fortalecer las capacidades de OpenAI en la creación de agentes de IA empresariales.",
-      "why_it_matters": "La adquisición de Ona por parte de OpenAI indica una estrategia para integrar capacidades de agentes de IA más robustas y seguras en sus ofertas empresariales, ampliando su alcance en el mercado corporativo.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-06-11"
-    },
-    {
-      "headline": "Anthropic lanza Cowork, un agente de Claude para escritorio que trabaja en tus archivos — sin necesidad de codificación",
-      "summary": "Anthropic ha lanzado Cowork, una nueva capacidad de agente de IA que extiende el poder de su herramienta Claude Code a usuarios no técnicos. La característica, disponible como vista previa para suscriptores de Claude Max, permite completar tareas no técnicas de manera similar a como los desarrolladores usan Claude Code.",
-      "why_it_matters": "El lanzamiento de Cowork marca un punto de inflexión en la democratización de los agentes de IA, haciéndolos accesibles para usuarios sin conocimientos de programación y compitiendo directamente con herramientas de productividad impulsadas por IA.",
+      "headline": "Anthropic lanza Cowork, un agente de escritorio de Claude que trabaja en tus archivos, sin necesidad de codificación",
+      "summary": "Anthropic ha lanzado Cowork, una nueva capacidad de agente de IA que extiende la potencia de su herramienta Claude Code a usuarios no técnicos. Esta característica permite completar tareas no técnicas de manera similar a como los desarrolladores usan Claude Code, posicionando a Anthropic para competir en el mercado de herramientas de productividad impulsadas por IA.",
+      "why_it_matters": "La democratización de las herramientas de IA para usuarios no técnicos reduce la barrera de entrada y amplía el acceso a capacidades avanzadas de IA, impulsando la adopción generalizada.",
       "source": "VentureBeat AI",
       "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
       "category": "Modelos fundacionales",
       "published_date": "2026-01-12"
     },
     {
-      "headline": "El gobierno de EE. UU. ordena a Anthropic deshabilitar sus modelos de IA más nuevos a nivel mundial debido a amenazas de seguridad",
-      "summary": "El gobierno de EE. UU. ha ordenado a Anthropic deshabilitar sus modelos de IA más nuevos, Claude Fable 5 y Mythos 5, a nivel mundial debido a preocupaciones de seguridad. La orden prohíbe el acceso a cualquier ciudadano extranjero, incluso a sus propios empleados, y se relaciona con el temor de que estos modelos puedan ser explotados.",
-      "why_it_matters": "Esta acción regulatoria destaca la creciente preocupación por la seguridad nacional en relación con los modelos de IA avanzados y el poder del gobierno para imponer restricciones sobre su acceso y uso.",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeFhOX1JhNG5GbjZyZUFHaWxPWi0waExwa0loX2pVOWlBM1piU21wdGRJR3FfaWZ0U3JJd3pocm1wV0JXc2MzTl96MUV3TFEtMUtBZTVMQVVuM2o1X01HbDVVS29xWTlaUWJTXzJPMzUxdlRWSWVKNFNGc0p4R29wOW1rM3I5ZDlqUWREZk1XcnF0cnNCeWE1REwwZ0pYZDNMRXlSTkRDaERsSXpzSC1EODB6LTY2dHRBbGdNT210LXlkNkFZOUhNNDFac2hZUW5rZlVlTmFhR0t0OVlJYnlJNERFYlF2d2hyelhBLQ?oc=5",
-      "category": "Modelos fundacionales",
+      "headline": "Los estadounidenses desconfían del auge de los centros de datos impulsados por IA, según encuesta de Reuters/Ipsos",
+      "summary": "Una encuesta reciente de Reuters/Ipsos revela que la mitad de los estadounidenses temen que el auge de los centros de datos impulsados por IA pueda tener implicaciones negativas. La preocupación se centra en el impacto económico y social de esta rápida expansión tecnológica.",
+      "why_it_matters": "La percepción pública y la preocupación sobre la infraestructura de IA son factores importantes que pueden influir en la regulación y la adopción de tecnologías de IA.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWxuRUxydEd0V09kUXFaeXVQSVRidjljZE5zdXB0WXd3ZE5GbERPWUdFWjE0bWM0ZFFNU2JMVmFYRVRaWFlTczZ6N1haSElBNG11Y3BZWUt1cnRpN1g0WnVQTkc5Wno4bXZRRk9lNUIxMUg4S3g2MDZrdW5nQUppWkUxeEJoM0lfSjFBNFdlVVJEUEFQdDRGRWhZb3owbU5EdDBoMk05SHo2dEFMdnFF?oc=5",
+      "category": "Infraestructura",
+      "published_date": "2026-06-11"
+    },
+    {
+      "headline": "Anthropic cierra Fable y Mythos tras directiva de la administración Trump",
+      "summary": "Anthropic ha suspendido el acceso a sus modelos Fable y Mythos tras una directiva del Departamento de Comercio de EE. UU. La preocupación se centra en la posibilidad de que una 'fuga' de estos modelos pueda representar una amenaza para la seguridad nacional.",
+      "why_it_matters": "Las preocupaciones de seguridad nacional están llevando a restricciones regulatorias sobre modelos de IA potentes, destacando la tensión entre el avance tecnológico y la gestión de riesgos.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
+      "category": "Seguridad y privacidad",
       "published_date": "2026-06-13"
+    },
+    {
+      "headline": "El regulador mundial pide controles más estrictos sobre la IA de agentes en finanzas",
+      "summary": "Un organismo de control financiero global ha emitido recomendaciones para implementar controles más estrictos sobre el uso de IA de agentes en el sector financiero. La medida busca mitigar los riesgos asociados con la toma de decisiones automatizada y la volatilidad del mercado.",
+      "why_it_matters": "La integración de IA en finanzas requiere una supervisión regulatoria cuidadosa para garantizar la estabilidad del mercado y la protección del consumidor.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZjQ0MVEtX0xuUUFuYl90T1RVeVZ1RzZUMXR4a3kzQjFsR2tKSTRWVU9fUUpkZkNfZUgwT0ltWGg2VE1OeUVDTjVMRzdWUE1iTkJUdTRIQ1BVc1l6blRQUUc4dXZxNG1nTUd1R3NLRGhaYWZIRHBrQlRtckxDSUxEbFRuNlA0RDVtUjFkRkpubVVBNTN0SWQ4dVJHbGZkNFMwN3ZrTWdGajhCaDBUdGRJM2d1OA?oc=5",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-06-10"
+    },
+    {
+      "headline": "La IA ahorra tiempo a los médicos, pero la mayoría carece de formación, según una encuesta",
+      "summary": "Una encuesta reciente revela que, si bien las herramientas de IA están ahorrando tiempo a los profesionales de la salud, la mayoría de ellos no han recibido la formación adecuada para utilizarlas de manera efectiva. Esto plantea preocupaciones sobre la adopción segura y eficiente de la IA en la atención médica.",
+      "why_it_matters": "La falta de formación en IA para los profesionales de la salud puede limitar los beneficios de estas tecnologías y aumentar el riesgo de errores o mal uso.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmpVWndBTzFOc0k1cHk0TUV2NDc3emJ6aHdiQWhKdkJVaEFsY2ZHc3ZlX3RScFliNF9wTlN0eWZSVnR6UGlLdkIxTDV4XzdxcjNuZmRSUGZvQlBJS0hJMng1UmxjTENqQmNCUzdEbnhza240dU4xcGVhOTZSMG96azU1R0VMdDI2bm1jbm41bmZfUE9GMC1QenE5Z2VaREFyQmdYWkNieVVuN1ZZVDJIbnUtRjBib2RtSlgwVGpNRHFEUFVheElF?oc=5",
+      "category": "Investigación",
+      "published_date": "2026-06-09"
+    },
+    {
+      "headline": "OpenAI adquiere Ona",
+      "summary": "OpenAI ha anunciado la adquisición de Ona, una empresa especializada en herramientas de datos y flujos de trabajo para la salud global. Esta adquisición busca expandir las capacidades de Codex y permitir la creación de agentes de IA de larga duración en flujos de trabajo empresariales.",
+      "why_it_matters": "Las adquisiciones estratégicas como esta permiten a las empresas de IA integrar tecnologías complementarias y expandir su alcance a nuevos mercados y aplicaciones.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-06-11"
     }
   ],
   "papers": [
     {
       "title": "Neither Parallel Nor Sequential: How DiffusionGemma Actually Commits Tokens",
-      "summary": "Este paper investiga cómo DiffusionGemma, un modelo de lenguaje de difusión abierto, realmente compromete tokens durante la generación. Los hallazgos revelan que su decodificación no es ni paralela ni autorregresiva por bloques, sino que sigue un sesgo parcial de izquierda a derecha cuya fuerza depende de la granularidad del análisis. El comportamiento varía según el régimen, con un orden de compromiso diferente para JSON estructurado y una confianza de compromiso que rastrea la corrección en razonamiento matemático pero no en recuperación factual.",
-      "technical_relevance": "Proporciona una comprensión detallada del mecanismo de compromiso de tokens en modelos de difusión de lenguaje, revelando matices arquitectónicos y dependencias de régimen que son cruciales para la optimización y evaluación de modelos.",
+      "summary": "Este paper investiga el proceso de decodificación de DiffusionGemma, un modelo de lenguaje de difusión. Contrario a la creencia popular, su decodificación no es puramente paralela ni secuencial, sino que sigue un sesgo parcial de izquierda a derecha cuya fuerza depende de la granularidad del análisis. El modelo realiza commits en lotes grandes y simultáneos, dejando el orden dentro del lote indefinido.",
+      "technical_relevance": "Analiza la arquitectura y el comportamiento de ejecución de modelos de difusión para lenguaje, proporcionando una comprensión más profunda de sus mecanismos de generación y las limitaciones de las métricas de evaluación tradicionales.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.14620v1",
       "tags": [
-        "Modelos de difusión",
-        "Generación de lenguaje",
-        "Arquitectura de modelos"
+        "Modelos de Difusión",
+        "Lenguaje Natural",
+        "Arquitectura de Modelos"
       ],
       "published_date": "2026-06-12"
     },
     {
       "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
-      "summary": "El paper aborda la inconsistencia entre el razonamiento y la respuesta en el aprendizaje por refuerzo con recompensas verificables (RLVR) para modelos multimodales de visión-lenguaje (LVLM). Propone CORA (Consistency-Oriented Reasoning Alignment), que introduce la consistencia semántica pensamiento-respuesta a través de un modelo de recompensa de consistencia y la integración de Hybrid Reward Advantage Splitting (HRAS) para optimizar la tarea y la consistencia.",
-      "technical_relevance": "Introduce un nuevo enfoque para mejorar la fiabilidad y coherencia de los modelos multimodales de IA, abordando un problema crítico en la alineación del razonamiento y la salida final, con implicaciones para aplicaciones de razonamiento complejo.",
+      "summary": "El paper propone CORA, un método para alinear la consistencia semántica entre el proceso de razonamiento y la respuesta final en modelos de aprendizaje por refuerzo con recompensas verificables (RLVR) multimodales. CORA introduce un modelo de recompensa de consistencia y utiliza HRAS para coordinar la optimización de tareas y consistencia, mejorando el rendimiento en benchmarks de razonamiento multimodal.",
+      "technical_relevance": "Aborda la inconsistencia entre el razonamiento y la respuesta en modelos multimodales, un desafío clave para la fiabilidad. La alineación de consistencia y la optimización híbrida son contribuciones técnicas importantes para mejorar la robustez de estos modelos.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.14691v1",
       "tags": [
-        "RLVR",
-        "Modelos multimodales",
-        "Alineación de IA",
-        "Razonamiento"
+        "IA Multimodal",
+        "Razonamiento",
+        "Aprendizaje por Refuerzo",
+        "Alineación"
       ],
       "published_date": "2026-06-12"
     },
     {
       "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
-      "summary": "Este trabajo presenta Parallel-Synthesis, un framework plug-and-play que permite a un sintetizador consumir directamente las cachés KV producidas por agentes trabajadores paralelos en flujos de trabajo de agentes LLM. El framework combina un mapeador de caché para calibrar cachés de ramas generadas independientemente y un adaptador de sintetizador ajustado para generar a partir de esta interfaz de caché no secuencial.",
-      "technical_relevance": "Aborda la ineficiencia en los flujos de trabajo de agentes LLM al permitir la síntesis directa desde cachés KV paralelas, reduciendo la computación redundante y preservando la estructura paralela, lo cual es clave para la escalabilidad de los sistemas de agentes.",
+      "summary": "Este trabajo introduce Parallel-Synthesis, un framework que permite a los sintetizadores consumir directamente las cachés KV producidas por agentes trabajadores paralelos en flujos de trabajo de agentes LLM. Esto evita la concatenación textual y la computación redundante, permitiendo la síntesis a partir de una interfaz de caché no secuencial.",
+      "technical_relevance": "Mejora la eficiencia y la estructura de los flujos de trabajo de agentes LLM al permitir la síntesis directa desde cachés KV de ramas paralelas, abordando un cuello de botella en la arquitectura de agentes modernos.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.14672v1",
       "tags": [
-        "Agentes LLM",
-        "Flujos de trabajo paralelos",
-        "Síntesis de datos",
-        "Infraestructura de IA"
+        "Agentes IA",
+        "LLMs",
+        "Arquitectura de Sistemas",
+        "Eficiencia Computacional"
       ],
       "published_date": "2026-06-12"
     },
     {
       "title": "LoSoNA: A Benchmark for Local Social Norm Adaptation in Group Conversations",
-      "summary": "Se introduce LoSoNA, un benchmark para la adaptación de normas sociales locales en conversaciones grupales de chat. El benchmark evalúa la capacidad de los agentes LLM para inferir y adaptarse a normas conversacionales implícitas observando transcripciones de chat. Se evalúan ocho modelos, mostrando variaciones en su capacidad de adaptación según el prompting.",
-      "technical_relevance": "Proporciona una herramienta crucial para evaluar y mejorar la competencia social de los agentes de IA en entornos de conversación complejos, un aspecto fundamental para su despliegue en interacciones humanas.",
+      "summary": "Se introduce LoSoNA, un benchmark para evaluar la adaptación de normas sociales locales en conversaciones grupales por parte de agentes LLM. El benchmark evalúa si los modelos pueden inferir normas conversacionales implícitas a partir de transcripciones y aplicarlas en sus respuestas, mostrando variabilidad en el rendimiento entre modelos de vanguardia.",
+      "technical_relevance": "Proporciona una herramienta para evaluar una capacidad social crucial de los LLMs: la adaptación a normas conversacionales. Esto es importante para la interacción humano-IA más natural y efectiva en entornos colaborativos.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.14600v1",
       "tags": [
-        "Normas sociales",
-        "Agentes conversacionales",
-        "Evaluación de IA",
-        "Benchmarks"
+        "LLMs",
+        "Interacción Humano-IA",
+        "Normas Sociales",
+        "Evaluación"
       ],
       "published_date": "2026-06-12"
     },
     {
       "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
-      "summary": "ClinHallu es un nuevo benchmark diseñado para diagnosticar alucinaciones en etapas específicas del razonamiento de modelos multimodales de lenguaje grande (MLLM) médicos. Contiene 7,031 instancias con trazas de razonamiento descompuestas en reconocimiento visual, recuperación de conocimiento e integración de razonamiento, permitiendo identificar y mitigar fallos de razonamiento de forma granular.",
-      "technical_relevance": "Aborda un problema crítico en los MLLM médicos: las alucinaciones. Al permitir el diagnóstico a nivel de etapa, facilita el desarrollo de modelos más fiables y seguros para aplicaciones clínicas.",
+      "summary": "ClinHallu es un nuevo benchmark diseñado para diagnosticar alucinaciones en modelos multimodales de lenguaje grande (MLLMs) médicos, desglosando los errores por etapas del proceso de razonamiento (reconocimiento visual, recuperación de conocimiento, integración de razonamiento). El benchmark incluye intervenciones de reemplazo de etapas para medir el impacto de corregir errores específicos.",
+      "technical_relevance": "Aborda el problema crítico de las alucinaciones en MLLMs médicos con un enfoque granular por etapas, permitiendo un diagnóstico y mitigación más precisos de los fallos de razonamiento.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.14697v1",
       "tags": [
-        "Alucinaciones de IA",
-        "MLLM",
-        "Medicina",
-        "Evaluación de IA",
-        "Benchmarks"
+        "IA Médica",
+        "Alucinaciones",
+        "Evaluación",
+        "MLLMs",
+        "Razonamiento"
       ],
       "published_date": "2026-06-12"
     },
     {
       "title": "AgentSpec: Understanding Embodied Agent Scaffolds Through Controlled Composition",
-      "summary": "AgentSpec es un framework de especificación modular que representa agentes encarnados como composiciones de componentes de política reutilizables con interfaces estandarizadas. Permite aislar contribuciones de componentes, comparar diseños alternativos y comprender cómo las interacciones de módulos dan forma al comportamiento del agente en diversos entornos de simulación.",
-      "technical_relevance": "Ofrece un marco estandarizado para el diseño y análisis de agentes encarnados, facilitando la investigación sistemática sobre la arquitectura y la interacción de componentes, lo cual es esencial para construir agentes más capaces y predecibles.",
+      "summary": "AgentSpec es un framework de especificación modular que representa agentes encarnados como composiciones de componentes de política reutilizables con interfaces estandarizadas. Permite aislar contribuciones de componentes, comparar diseños alternativos y comprender cómo las interacciones de módulos dan forma al comportamiento del agente en diversos entornos.",
+      "technical_relevance": "Introduce un enfoque sistemático para el diseño y análisis de arquitecturas de agentes, estandarizando interfaces y permitiendo la composición controlada de módulos, lo cual es crucial para el desarrollo de agentes más robustos y comprensibles.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.14674v1",
       "tags": [
-        "Agentes encarnados",
-        "Arquitectura de IA",
+        "Agentes IA",
+        "Arquitectura de Sistemas",
         "Modularidad",
-        "Evaluación de IA"
+        "Evaluación"
       ],
       "published_date": "2026-06-12"
     }
