@@ -1,167 +1,167 @@
 {
-  "date": "2026-10-14",
-  "title": "AI Daily Brief",
+  "date": "2026-10-15",
+  "title": "AI Daily Brief: Avances en Agentes, Composición 3D y Seguridad de Modelos",
   "language": "es",
   "mode": "gemini-free-tier",
-  "executive_summary": "Este informe diario de IA destaca avances en agentes autónomos, técnicas de razonamiento mejoradas y la creciente preocupación por la seguridad y regulación de la IA. Se presentan nuevos métodos para la inferencia eficiente en modelos de lenguaje, la navegación entre razonamiento latente y textual en agentes híbridos, y la automatización de la creación de modelos de observación de la Tierra. También se abordan las implicaciones sociales y económicas, como la percepción pública de los riesgos de la IA y el impacto en el empleo, junto con advertencias sobre la autorreplicación de modelos y la necesidad de marcos regulatorios robustos.",
+  "executive_summary": "Este informe diario de IA destaca los avances en marcos de agentes para la composición 3D y la resolución de ambigüedades en afirmaciones científicas. Se presentan nuevas técnicas para el auto-mejoramiento recursivo de agentes y la co-evolución de actuación y pronóstico. En el ámbito de los modelos fundacionales, se investiga la inteligencia social de los LLM y se proponen métodos para mejorar la robustez y la seguridad. También se abordan las implicaciones de la IA en la regulación y la economía global.",
   "news": [
     {
-      "headline": "Anthropic advierte sobre modelos de IA que pronto podrían autorreplicarse y causar estragos en la web",
-      "summary": "Anthropic ha emitido una advertencia sobre el potencial de los modelos de IA para autorreplicarse, lo que podría tener consecuencias graves para la web. Aunque la implementación actual de esta capacidad es poco práctica, se prevé que se convierta en una preocupación a medida que la tecnología avance. La advertencia subraya la necesidad de una supervisión y regulación proactivas.",
-      "why_it_matters": "Esta advertencia de Anthropic señala un riesgo existencial emergente de la IA, donde los modelos podrían propagarse y evolucionar de forma autónoma, superando el control humano y potencialmente causando daños generalizados en la infraestructura digital.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVFZnZHFlY0QxWV9XbURPeDVpQnlMcWFqaTlDMHRjcWhhLXRhR1hfbTdNeVl3c3dyR3V6V211Wmp5aXNZT1VpN1kwdUs3ZFdBTXB5Z2tEN1JfV2FnUk5FRHpVa2lfRWxENndHaDdNWmRZVUJfQkFody00VG1BNk8wb29Sel9Wd011ampEWXlOQk9xM2x0bkVwTXBib0hEMndtOWNuZXdDWFlEcTRuZzVLRDYxUDFfek9XRTNna3dhZw?oc=5",
-      "category": "IA general",
-      "published_date": "2026-10-13"
-    },
-    {
-      "headline": "La UE entra en un nuevo capítulo de IA: la era de los agentes",
-      "summary": "Un nuevo análisis revela que la adopción de IA agentica está creciendo en empresas y pequeñas empresas de la UE. El informe destaca las áreas donde un uso más profundo podría desbloquear un mayor valor, sugiriendo una tendencia hacia sistemas de IA más autónomos y proactivos en el panorama empresarial europeo.",
-      "why_it_matters": "Este informe de OpenAI subraya la creciente importancia de la IA agentica en Europa, indicando una transición hacia sistemas de IA más autónomos capaces de realizar tareas complejas. Esto tiene implicaciones significativas para la productividad, la eficiencia y la naturaleza del trabajo.",
+      "headline": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "Third Moment Research está utilizando modelos avanzados de OpenAI, como GPT-6 Astra y GPT-6.1 Sol, junto con Codex y Daybreak para ciberseguridad. Han desarrollado agentes de IA capaces de mantener el enfoque durante días y mejorar su rendimiento con el uso continuo.",
+      "why_it_matters": "Demuestra la escalabilidad y la resistencia de los agentes de IA en tareas complejas y de larga duración, especialmente en el dominio de la ciberseguridad, lo que sugiere un futuro prometedor para la automatización de tareas críticas.",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "category": "Agentes y herramientas",
+      "url": "https://openai.com/index/third-moment-research",
+      "category": "Modelos fundacionales",
       "published_date": "2026-10-14"
     },
     {
-      "headline": "La mayoría de los votantes de EE. UU. dicen que Trump y el Congreso no se toman en serio los riesgos de la IA, según encuesta de Reuters/Ipsos",
-      "summary": "Una encuesta reciente de Reuters/Ipsos revela que la mayoría de los votantes estadounidenses creen que tanto el expresidente Trump como el Congreso no abordan adecuadamente los riesgos asociados con la inteligencia artificial. Esta percepción pública subraya una brecha entre la conciencia de los riesgos de la IA y las acciones políticas percibidas.",
-      "why_it_matters": "La percepción pública de que los líderes políticos no se toman en serio los riesgos de la IA es crucial para la formulación de políticas y la regulación. Indica una posible falta de alineación entre las preocupaciones ciudadanas y las prioridades legislativas, lo que podría afectar la adopción y el desarrollo seguros de la IA.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN2p1M1ZHTVBGQXhwSXJMYWp2SXBVWGZzVnV1V3JaWjJWTjI0RnVKS2t2OGdRc1VCYVBwTTljSk9EQ2xINUtZbl9IMDZDZTZWc3hodFYzckxmaldPNC1taDFwcTJxcTJFdjk1eTl0LVpoYlBEREJnX2U0ajB0V0FXRXE2QWlvTllvWVRFaU43SlJRQlhiVVNhVDR4WkdGMi1mSnAtUXprYmZHV1ZfT3RMdTc1emNYVEtCZkNSeFdXZw?oc=5",
-      "category": "Seguridad y privacidad",
-      "published_date": "2026-10-07"
+      "headline": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary": "Amp está ampliando las capacidades de los agentes de IA más allá de la generación de código, utilizando modelos de OpenAI como GPT-6 Astra, Ultrafast, GPT-Live-1 y Sign in with ChatGPT. Esto permite a los agentes abordar una gama más amplia de tareas complejas.",
+      "why_it_matters": "Indica una expansión significativa en las aplicaciones prácticas de los agentes de IA, moviéndose hacia la automatización de tareas profesionales más allá de la programación, lo que podría transformar diversas industrias.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-10-14"
     },
     {
-      "headline": "El Reino Unido obtiene acceso para probar la seguridad de los últimos modelos de IA, dice el ministro",
-      "summary": "El Reino Unido ha asegurado el acceso para realizar pruebas de seguridad en los modelos de IA más recientes, según un anuncio de un ministro. Esta medida subraya los esfuerzos internacionales para evaluar y mitigar los riesgos potenciales asociados con los sistemas avanzados de IA antes de su implementación generalizada.",
-      "why_it_matters": "El acceso del Reino Unido a los modelos de IA para pruebas de seguridad es un paso importante hacia la gobernanza responsable de la IA. Permite una evaluación proactiva de los riesgos, asegurando que las tecnologías de IA se desarrollen y desplieguen de manera segura y ética.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUmlfSHdWN2c1aTdqYkVTZUEzMEJqbl9oWndIa0ttTkVUMjRnYzdFQWNRcUxKZHhLVUVPOHZDaW1USVBvbC1oRUw4ZDgzSHdNSDFDLXdLTXB1bVdwOHRPenpaLVpOS3BOeFJhWDdEdWpfX3loQW5ENUNqUFdPYm5yMHlQUHFqMldJTkE4ZU0waW0xbTdtREhiaUVJdW9mcEpBa2c0SlFMTEJWQXBVN0ZPbg?oc=5",
-      "category": "Seguridad y privacidad",
-      "published_date": "2026-10-12"
+      "headline": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "summary": "Ocho estados de EE. UU. han presentado demandas contra OpenAI, alegando que ChatGPT no es seguro para los niños y que la empresa priorizó las ganancias sobre la seguridad. Las demandas acusan a OpenAI de engañar a los consumidores sobre la seguridad de su producto.",
+      "why_it_matters": "Este evento subraya las crecientes preocupaciones regulatorias y de seguridad en torno a los modelos de IA generativa, especialmente en lo que respecta a la protección de menores y la transparencia en el desarrollo y despliegue de estas tecnologías.",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-10-14"
     },
     {
-      "headline": "El presidente de Microsoft dice que la leche enfrenta más regulación que la IA",
-      "summary": "El presidente de Microsoft ha declarado que la leche, un producto básico, está sujeta a una mayor regulación que la inteligencia artificial. Esta comparación destaca la percepción de una falta de marcos regulatorios adecuados para la IA en comparación con industrias más establecidas.",
-      "why_it_matters": "La afirmación de que la leche está más regulada que la IA resalta la preocupación generalizada sobre el panorama regulatorio en rápida evolución de la IA. Subraya la necesidad de que los gobiernos y los organismos de la industria desarrollen marcos sólidos para gestionar los riesgos y garantizar un desarrollo ético de la IA.",
+      "headline": "Microsoft president says milk faces more regulation than AI - Reuters",
+      "summary": "El presidente de Microsoft, Brad Smith, ha comentado que la leche está sujeta a más regulaciones que la inteligencia artificial. Esta declaración resalta la percepción de que la IA aún opera en un entorno regulatorio menos estricto en comparación con industrias tradicionales.",
+      "why_it_matters": "Pone de relieve el debate en curso sobre la necesidad de una regulación más robusta para la IA, especialmente a medida que su adopción e impacto en la sociedad continúan creciendo.",
       "source": "Google News AI Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS1NfWGg4YTk5aTliMnhVVHdsS2ZoUVJwT1hsNW9HZ2Y0VXdsRWFSb2VRT3RmQ1B1ZnZKRVZUd1ZQWElzM3dPZ08yRldXRXdwdm9Lc3hEOWZxQVNrYjBtMExTYkhnTnM5b1NNdmI5aUZGS29vRXVCLUpXY2JsbTRodVpMNkZBU1JnUEZWdUJvcUtwbnVXSWFaT3lMbzlqdVRybm9YTVJ4anVpbkZmN0lOYUFR?oc=5",
       "category": "Regulación y sociedad",
       "published_date": "2026-10-12"
     },
     {
-      "headline": "Las empresas recortan empleos a medida que las inversiones cambian hacia la IA",
-      "summary": "Un número creciente de empresas está reduciendo su fuerza laboral, ya que las inversiones se desvían hacia el desarrollo y la implementación de la inteligencia artificial. Este cambio sugiere una reestructuración económica impulsada por la tecnología, donde la automatización y las capacidades de la IA están remodelando las necesidades del mercado laboral.",
-      "why_it_matters": "El desplazamiento de empleos debido a la inversión en IA es una consecuencia económica y social significativa. Plantea preocupaciones sobre la desigualdad, la necesidad de reciclaje profesional y el impacto general en la fuerza laboral a medida que la automatización se vuelve más prevalente.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYmowdG1sVXFFOTdIcEZRY1l2OGcyUHdKZHZ4VlN3ZWJKX0dKbzlUQ29HNFNzc0hFTHRtNDFmQVZfOHg1aDlDbXFCcHM0RVJvSWcxVEVKWGZXSG5obnh3OGF1M0xfYWZYMDdmcDNTTzFoYkZvekdURU9ZS3hlbWlJeGc5UDhYOEMweVlwLVhrMEFka0FySzZWRE90eXNhZHFWV1pxdXVBQzB5d2xpRXc?oc=5",
-      "category": "Regulación y sociedad",
-      "published_date": "2026-10-12"
-    },
-    {
-      "headline": "El FMI cita la desaceleración de la IA y el aumento de los rendimientos como riesgos inminentes para el mercado global",
-      "summary": "El Fondo Monetario Internacional (FMI) ha identificado la desaceleración de la inversión en IA y el aumento de los rendimientos como riesgos importantes que amenazan la estabilidad del mercado global. Estos factores, junto con otros desafíos económicos, plantean un panorama incierto para la economía mundial.",
-      "why_it_matters": "La advertencia del FMI sobre los riesgos del mercado global, incluida la desaceleración de la IA, destaca la interconexión de la tecnología y la economía. Subraya la necesidad de una gestión macroeconómica prudente y de estrategias para mitigar los posibles efectos adversos de las tendencias tecnológicas en la estabilidad financiera.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcDlSTHJNVmVDQkFXaW1Wa1R4TjZCVUh6dW9FZF9fN2lNcGNUVEFhMUs1V3ZBdjVjUG5UT29Bc1U3aldpZDlWbF9yTUhuS2RzSnYzY2lxNlJTb3dVMzROam9wYVZfcjQ3MUlVRWFZYlcxVUQzcDlGS195NWd3UDgxXzRzWm5VdG5EaDZnbnFkQjVWeHU2ZUM3RFVpSFpuWEV0Wmd1bnlVRFhwclJzR1EtaDROQkJZQ2dW?oc=5",
+      "headline": "The Download: open model trade-offs and geothermal power’s promise",
+      "summary": "El artículo discute los beneficios de los modelos de IA de código abierto frente a sus riesgos. Se menciona un informe de Anthropic que advierte sobre los peligros de un modelo de Z.ai, sugiriendo que los modelos abiertos pueden presentar desafíos de seguridad significativos.",
+      "why_it_matters": "Aborda el dilema fundamental entre la transparencia y la colaboración que ofrecen los modelos abiertos y los riesgos de seguridad y mal uso que pueden implicar, un debate crucial para el futuro de la IA.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
       "category": "Seguridad y privacidad",
       "published_date": "2026-10-13"
     },
     {
-      "headline": "Google lanza Gemini 4 Argon",
-      "summary": "Google ha lanzado oficialmente su esperado modelo Gemini 4 Argon, afirmando que compite con los modelos de vanguardia de la industria. El modelo promete un razonamiento avanzado y un rendimiento mejorado en flujos de trabajo complejos, al tiempo que reduce la repetición y las frases evasivas.",
-      "why_it_matters": "El lanzamiento de Gemini 4 Argon por parte de Google representa un avance significativo en el desarrollo de modelos de IA. Sus capacidades mejoradas en razonamiento y rendimiento podrían impulsar nuevas aplicaciones y mejorar las existentes, intensificando la competencia en el mercado de modelos de IA a gran escala.",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-10-13"
+      "headline": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "summary": "Apate.ai está utilizando agentes de IA para infiltrarse en esquemas de fraude y recopilar inteligencia sobre estas actividades. A diferencia de otros usos de agentes de IA para mejorar la productividad, Apate los emplea para la detección proactiva de fraudes.",
+      "why_it_matters": "Representa un uso innovador y proactivo de los agentes de IA en la lucha contra el fraude, demostrando su potencial para la investigación de amenazas y la recopilación de inteligencia en tiempo real.",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-10-14"
+    },
+    {
+      "headline": "UK given access to safety-test latest AI models, minister says - Reuters",
+      "summary": "El Reino Unido ha obtenido acceso para probar la seguridad de los últimos modelos de IA, según un ministro. Esta medida indica un esfuerzo gubernamental por evaluar y mitigar los riesgos asociados con los modelos de IA más avanzados antes de su despliegue generalizado.",
+      "why_it_matters": "Refleja una tendencia global hacia una mayor supervisión y pruebas de seguridad para los modelos de IA, crucial para garantizar un desarrollo responsable y prevenir posibles daños.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUmlfSHdWN2c1aTdqYkVTZUEzMEJqbl9oWndIa0ttTkVUMjRnYzdFQWNRcUxKZHhLVUVPOHZDaW1USVBvbC1oRUw4ZDgzSHdNSDFDLXdLTXB1bVdwOHRPenpaLVpOS3BOeFJhWDdEdWpfX3loQW5ENUNqUFdPYm5yMHlQUHFqMldJTkE4ZU0waW0xbTdtREhiaUVJdW9mcEpBa2c0SlFMTEJWQXBVN0ZPbg?oc=5",
+      "category": "Seguridad y privacidad",
+      "published_date": "2026-10-12"
+    },
+    {
+      "headline": "The EU’s next chapter in AI is agentic",
+      "summary": "Un nuevo análisis revela que la adopción de IA agentic está creciendo en empresas y pequeñas empresas de la UE. El informe sugiere que un uso más profundo de estas tecnologías podría desbloquear un valor adicional significativo.",
+      "why_it_matters": "Destaca la creciente importancia de la IA agentic en el panorama empresarial europeo y su potencial para impulsar la innovación y la eficiencia, al tiempo que señala áreas donde se puede lograr un mayor valor.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-10-14"
     }
   ],
   "papers": [
     {
-      "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
-      "summary": "Este paper presenta DoubtLess, un método de decodificación sin entrenamiento que utiliza un modelo de razonamiento más pequeño para guiar a uno más grande hacia la brevedad. El modelo pequeño lee la cadena de pensamiento del modelo grande dos veces, comparando las dos salidas para ajustar los logits en cada paso. Esto resulta en una reducción del 31% en la longitud de la cadena de pensamiento de Qwen3-32B sin pérdida de precisión, superando a otras bases de inferencia.",
-      "technical_relevance": "Introduce una técnica novedosa y libre de entrenamiento para optimizar la eficiencia de los modelos de lenguaje grandes en tareas de razonamiento, reduciendo significativamente la longitud de las cadenas de pensamiento sin sacrificar la precisión. Esto es crucial para aplicaciones donde la latencia y el costo computacional son importantes.",
+      "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+      "summary": "Se propone PhySGA, un marco agentic basado en el espacio físico para la composición de objetos 3D mediante exploración de agentes y simulación física. Aborda las limitaciones de los métodos anteriores que carecen de comprensión física interactiva para tareas complejas como colgar objetos o la simulación de gravedad.",
+      "technical_relevance": "Introduce un enfoque novedoso para la composición 3D que integra la física y la agencia, superando las limitaciones de los modelos basados en predicciones directas o difusiones estáticas. Es relevante para la creación de contenido digital, la simulación robótica y la investigación en inteligencia física de modelos fundacionales.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2610.18862v1",
+      "url": "https://arxiv.org/abs/2610.20560v1",
       "tags": [
-        "Modelos fundacionales",
-        "Razonamiento",
-        "Decodificación",
-        "Eficiencia"
+        "IA agentic",
+        "Composición 3D",
+        "Simulación física",
+        "Modelos fundacionales"
       ],
-      "published_date": "2026-10-13"
+      "published_date": "2026-10-14"
     },
     {
-      "title": "Hybrid Reasoning Agents",
-      "summary": "El paper propone Hybrid Reasoning Agents (HybridAgents), que combinan el razonamiento latente con la interacción basada en texto. Utilizan un 'HybridLink' ligero para transiciones fluidas entre modos y una memoria de trabajo unificada. Se desarrollan algoritmos de post-entrenamiento como HybridSFT y HybridRL para estabilizar y escalar el razonamiento híbrido, permitiendo la inspección de pensamientos latentes y la integración de herramientas.",
-      "technical_relevance": "Presenta una arquitectura de agente innovadora que navega dinámicamente entre el razonamiento latente y la comunicación textual. Esto aborda la eficiencia del razonamiento interno y la transparencia, al tiempo que mantiene la capacidad de interactuar con herramientas externas, lo cual es un avance clave para agentes más capaces y comprensibles.",
+      "title": "Same Claim, Different Interpretations: How LLM Agents Resolve Ambiguity in Scientific Claims",
+      "summary": "Este trabajo introduce 'Claim Cards' para hacer explícitas las interpretaciones de afirmaciones científicas ambiguas por parte de agentes LLM. Se investiga cómo la variabilidad en la interpretación afecta los veredictos de los agentes y se compara con las etiquetas de expertos.",
+      "technical_relevance": "Aborda un problema crítico en la verificación de afirmaciones científicas por parte de agentes LLM: la ambigüedad del lenguaje natural. La metodología de 'Claim Cards' ofrece una forma de rastrear y analizar las interpretaciones, mejorando la fiabilidad y la reproducibilidad de la evaluación de afirmaciones.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2610.18861v1",
+      "url": "https://arxiv.org/abs/2610.20457v1",
       "tags": [
-        "Agentes",
-        "Razonamiento Híbrido",
-        "Modelos Fundacionales",
-        "Interacción Humano-IA"
+        "LLM Agents",
+        "Verificación de afirmaciones",
+        "Procesamiento del Lenguaje Natural",
+        "Inteligencia Artificial"
       ],
-      "published_date": "2026-10-13"
+      "published_date": "2026-10-14"
     },
     {
-      "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
-      "summary": "Este trabajo propone un marco donde un agente de codificación puede construir y mejorar recursivamente modelos de observación de la Tierra (EO). Cualquier tarea de EO se puede definir como un 'harness' y un 'verifier'. El agente crea el modelo y lo refina iterativamente basándose en sus propias salidas, superando el estado del arte con solo el 1% de las etiquetas de entrenamiento en varios benchmarks.",
-      "technical_relevance": "Introduce un paradigma para la creación automatizada y auto-mejorada de modelos de EO. Al reformular las tareas como problemas de 'harness' y 'verifier', permite que los agentes de IA construyan modelos de alta precisión con una mínima intervención humana, lo que podría revolucionar el campo de la teledetección.",
+      "title": "Co-Evolving Acting and Forecasting for Language Agents",
+      "summary": "Se presenta un nuevo método para entrenar agentes de lenguaje que co-evoluciona las acciones y las predicciones. El enfoque entrena la política para generar secuencias de acciones y predecir respuestas del entorno, formando un conjunto temporal que mejora el rendimiento.",
+      "technical_relevance": "Propone una solución al cuello de botella en el entrenamiento de agentes de lenguaje de largo alcance, aprovechando la supervisión intermedia de manera más efectiva. La co-evolución de actuación y pronóstico ofrece una nueva dirección para el aprendizaje de agentes.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2610.18845v1",
+      "url": "https://arxiv.org/abs/2610.20597v1",
       "tags": [
-        "Agentes",
-        "Auto-mejora",
-        "Observación de la Tierra",
-        "Aprendizaje Automático"
-      ],
-      "published_date": "2026-10-13"
-    },
-    {
-      "title": "SEAR: Self-Evolving Agentic Robotics",
-      "summary": "SEAR es un marco y benchmark para robótica agentica que permite a los agentes de lenguaje mejorar robots de forma autónoma. El sistema escribe código de control, lo prueba y conserva las habilidades y memorias exitosas. Evalúa la capacidad de aprendizaje real y la generalización de las habilidades aprendidas en diferentes entornos y tareas, separando el aprendizaje genuino de los intentos repetidos.",
-      "technical_relevance": "Aborda el desafío de la mejora autónoma en robótica. SEAR proporciona un marco y un benchmark para evaluar si los agentes de IA realmente aprenden y generalizan en robótica, diferenciando entre el aprendizaje efectivo y la simple repetición de intentos. Esto es crucial para el desarrollo de robots verdaderamente adaptables y auto-mejorables.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2610.18792v1",
-      "tags": [
-        "Robótica",
-        "Agentes",
-        "Auto-mejora",
-        "Aprendizaje por Refuerzo"
-      ],
-      "published_date": "2026-10-13"
-    },
-    {
-      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-      "summary": "Este paper presenta Tev-Gym, un dataset para entrenamiento de agentes de largo alcance con recompensas de progreso densas y verificables. Utiliza un enfoque de 'mundo latente' para generar entornos de tareas con complejidad controlable y una métrica de progreso natural. Esta métrica se traduce en recompensas por paso a través de 'progress-potential reward shaping' (PPRS) para mejorar la eficiencia del entrenamiento.",
-      "technical_relevance": "Aborda la escasez de datos y recompensas dispersas en tareas de largo alcance para agentes de IA. Tev-Gym y PPRS ofrecen una solución para entrenar agentes más eficientes y capaces en secuencias de tareas complejas y prolongadas, lo cual es fundamental para aplicaciones como el descubrimiento automatizado.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2610.18868v1",
-      "tags": [
-        "Agentes",
+        "Agentes de Lenguaje",
         "Aprendizaje por Refuerzo",
-        "Entornos de Largo Alcance",
-        "Recompensas Densas"
+        "Modelos Fundacionales",
+        "Entrenamiento de IA"
       ],
-      "published_date": "2026-10-13"
+      "published_date": "2026-10-14"
     },
     {
-      "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
-      "summary": "BLADE es un framework sin entrenamiento para la atribución de fallos en sistemas multi-agente de LLM. Va más allá del simple rastreo de dependencias para auditar el uso de la información en los puntos de transferencia entre agentes. Identifica si las decisiones se basan fielmente en sus fuentes, distinguiendo la introducción, propagación y reparación de errores para un diagnóstico global.",
-      "technical_relevance": "Introduce un método novedoso para la depuración y atribución de fallos en sistemas multi-agente de LLM. Al auditar el uso de la información en lugar de solo rastrear las dependencias, BLADE proporciona un diagnóstico más preciso de dónde y por qué fallan los sistemas complejos, lo cual es esencial para la fiabilidad y robustez.",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "summary": "Player-1 es un marco post-entrenamiento que permite a los agentes de IA aprender a jugar juegos a partir de experiencia sintética. Extiende el espacio de acciones para el control de juegos y utiliza entornos sintéticos para el aprendizaje por refuerzo.",
+      "technical_relevance": "Aborda el desafío del control de juegos para agentes de IA, proponiendo un método para aprender más allá de las demostraciones mediante la generación de experiencia sintética. Esto es crucial para el desarrollo de agentes con control digital generalizado.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2610.18780v1",
+      "url": "https://arxiv.org/abs/2610.20584v1",
       "tags": [
-        "Agentes Múltiples",
-        "LLMs",
-        "Atribución de Fallos",
-        "Auditoría"
+        "Agentes de IA",
+        "Aprendizaje por Refuerzo",
+        "Experiencia Sintética",
+        "Control de Juegos"
       ],
-      "published_date": "2026-10-13"
+      "published_date": "2026-10-14"
+    },
+    {
+      "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
+      "summary": "AdaRSI es un marco de auto-mejoramiento recursivo bajo demanda para agentes corporales. Permite a los agentes mejorar sus habilidades y arneses, y refinar selectivamente los sub-pasos que siguen siendo poco fiables, utilizando demostraciones auto-recolectadas.",
+      "technical_relevance": "Introduce una estrategia de auto-mejoramiento más eficiente para agentes corporales, centrándose en refinar solo las partes del sistema que son persistentemente poco fiables. Esto es clave para la adaptabilidad y el rendimiento de los agentes en tareas del mundo real.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.20474v1",
+      "tags": [
+        "Agentes Corporales",
+        "Auto-mejoramiento Recursivo",
+        "IA Robótica",
+        "Aprendizaje Adaptativo"
+      ],
+      "published_date": "2026-10-14"
+    },
+    {
+      "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
+      "summary": "Se presenta PerSo, un benchmark para evaluar la inteligencia social de los LLM en escenarios de persuasión del mundo real, midiendo tanto la inteligencia cognitiva como la conductual. La evaluación de diversos LLM muestra que el rendimiento escala con el tamaño del modelo.",
+      "technical_relevance": "Ofrece una nueva forma de evaluar la inteligencia social de los LLM en contextos realistas, yendo más allá de escenarios sintéticos. Esto es fundamental para el desarrollo de interacciones humano-IA más efectivas y éticas.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.20548v1",
+      "tags": [
+        "Inteligencia Social",
+        "LLMs",
+        "Persuasión",
+        "Evaluación de IA"
+      ],
+      "published_date": "2026-10-14"
     }
   ]
 }
