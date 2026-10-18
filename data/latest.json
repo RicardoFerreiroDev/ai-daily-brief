@@ -1,164 +1,165 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "title": "AI Daily Brief",
   "language": "es",
   "mode": "gemini-free-tier",
-  "executive_summary": "Este informe diario de IA destaca avances en agentes de IA, modelos de lenguaje y seguridad. Se presentan investigaciones sobre la mejora de agentes para entornos complejos, la curación de espacios de trabajo a largo plazo y la evaluación de la seguridad de los agentes. También se abordan noticias sobre la adopción de IA en la industria financiera, la regulación de la IA y el desarrollo de hardware para IA.",
+  "executive_summary": "Este informe diario de IA cubre avances en agentes de IA, modelos fundacionales y seguridad. Se destacan investigaciones sobre la curación de espacios de trabajo por agentes, la evaluación de la seguridad de agentes y la generación de contenido 3D. También se abordan noticias sobre la regulación de la IA, el uso de IA en finanzas y la creciente adopción de agentes de IA en empresas.",
   "news": [
     {
-      "headline": "Third Moment Research ejecuta 10,000 agentes durante más de 36 horas",
-      "summary": "Third Moment Research está utilizando modelos avanzados de OpenAI, como GPT-6 Astra y GPT-6.1 Sol, junto con Codex y Daybreak, para construir agentes de IA. Estos agentes están diseñados para centrarse en tareas complejas durante días y mejorar con el uso, demostrando una notable capacidad para la persistencia y el aprendizaje.",
-      "why_it_matters": "Este avance demuestra la escalabilidad y la resistencia de los agentes de IA en tareas de larga duración, lo que tiene implicaciones significativas para la ciberseguridad y otras aplicaciones que requieren un análisis continuo y profundo.",
+      "headline": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "Third Moment Research utiliza modelos avanzados como GPT-6 Astra y GPT-6.1 Sol, junto con Codex y Daybreak, para construir agentes de IA capaces de operar de forma continua durante días. Estos agentes se especializan en ciberseguridad y mejoran con el uso, demostrando una notable persistencia y adaptabilidad.",
+      "why_it_matters": "Demuestra la escalabilidad y la resistencia de los agentes de IA para tareas complejas y de larga duración, abriendo puertas a aplicaciones en dominios críticos como la ciberseguridad.",
       "source": "OpenAI News",
       "url": "https://openai.com/index/third-moment-research",
       "category": "Modelos fundacionales",
       "published_date": "2026-10-14"
     },
     {
-      "headline": "Stack Overflow para Agentes triplica las inscripciones con el plugin de ChatGPT",
-      "summary": "La integración de Stack Overflow con ChatGPT, impulsada por Codex, ha experimentado un crecimiento masivo en la creación de agentes. El plugin ha facilitado la creación de hasta 10 veces más agentes, lo que indica una creciente demanda y accesibilidad de herramientas de IA para desarrolladores.",
-      "why_it_matters": "Este éxito subraya el poder de las integraciones de IA para democratizar el desarrollo de agentes y acelerar la innovación, haciendo que las herramientas complejas sean más accesibles para una audiencia más amplia.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-10-16"
+      "headline": "Websites are closing their doors to AI agents",
+      "summary": "Una creciente cantidad de sitios web están implementando medidas para bloquear el acceso de agentes de IA autónomos. Esta tendencia surge como respuesta a la proliferación de estos agentes, diseñados para realizar diversas tareas en línea, desde reservas hasta compras.",
+      "why_it_matters": "Plantea un desafío significativo para la adopción y funcionalidad de los agentes de IA, indicando una tensión emergente entre la automatización impulsada por IA y la accesibilidad de la web.",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-10-17"
     },
     {
-      "headline": "Amp pone a los agentes de IA a trabajar más allá del código con modelos de OpenAI",
-      "summary": "Amp está ampliando las capacidades de los agentes de IA más allá de la generación de código, utilizando modelos como GPT-6 Astra, Ultrafast y GPT-Live-1. La integración con \"Sign in with ChatGPT\" permite a los agentes interactuar con diversas aplicaciones y servicios.",
-      "why_it_matters": "Esta expansión de las aplicaciones de los agentes de IA sugiere un futuro donde la IA no solo asiste en la codificación, sino que también se integra en flujos de trabajo empresariales más amplios, mejorando la eficiencia y la automatización.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-10-14"
-    },
-    {
-      "headline": "OpenAI, Meta advierten al poder judicial de EE. UU. sobre el riesgo de evidencia 'deepfake' - Reuters",
-      "summary": "OpenAI y Meta han expresado su preocupación ante el poder judicial de Estados Unidos sobre el creciente riesgo de evidencia manipulada mediante 'deepfakes'. Ambas compañías instan a la consideración de estas amenazas en el contexto legal.",
-      "why_it_matters": "La proliferación de contenido generado por IA, especialmente los 'deepfakes', plantea serios desafíos para la integridad de la evidencia en procesos legales, requiriendo nuevas estrategias de verificación y regulación.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVBjUDY1NEtsWk4xYnphdUJQSjdScU5TNHdPUk9iN3FibFNId2xOWDA4c1RHY2FodFJYdVl1ZzIybjBLc21FZXJxOXRmbjNsbFk4SDNIYzhDeWw4dEt6RkJhN3NJeHJqYVlVTlc5YnVZOHRyeWJIalRfaE5ER2tKRnRieXN4MVN2WkxFSmFvSFVBbUF6b0FHV0FoVTA5emZtRThLUlQ5VXQ4TndPU3FPRFpKMjg?oc=5",
-      "category": "Seguridad y privacidad",
-      "published_date": "2026-10-15"
-    },
-    {
-      "headline": "La FTC cita a Anthropic y OpenAI por preocupaciones sobre la seguridad de la inteligencia artificial - www.the-independent.com",
-      "summary": "La Comisión Federal de Comercio (FTC) de Estados Unidos ha emitido citaciones a Anthropic y OpenAI, buscando información sobre sus prácticas de seguridad en inteligencia artificial. Las citaciones sugieren un creciente escrutinio regulatorio sobre los principales actores del campo de la IA.",
-      "why_it_matters": "Este movimiento de la FTC indica una intensificación de los esfuerzos regulatorios para comprender y mitigar los riesgos asociados con el desarrollo y despliegue de sistemas de IA avanzados, especialmente en lo que respecta a la seguridad.",
+      "headline": "FTC subpoenas Anthropic and OpenAI over artificial intelligence safety concerns",
+      "summary": "La Comisión Federal de Comercio (FTC) ha emitido citaciones a Anthropic y OpenAI en relación con preocupaciones sobre la seguridad de la inteligencia artificial. La investigación se centra en las prácticas de seguridad y el desarrollo de modelos de IA por parte de estas destacadas empresas.",
+      "why_it_matters": "Subraya el creciente escrutinio regulatorio sobre la seguridad y las implicaciones éticas de los sistemas de IA avanzados, lo que podría influir en futuras directrices y normativas.",
       "source": "Google News AI Research",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUmQ5bkZBUjlMb3c2R0g3ZHEtZVpfc2lMOGZpcjhaOV85LWUwNXdIS1RwVlNBUUYxVFVDcm1HeWtyc0FpTXJlbUN5Unl2OGdhVjFtanE4Si1FMVg2QXhXV29JWVlhZGhxMVpPc2dzcWlmcmFRLU4ya1lXdllWcWlvbTR2UW9QajB2QXN5anNMR1lOOUx3VHVmVjAtdlE?oc=5",
       "category": "Seguridad y privacidad",
       "published_date": "2026-10-15"
     },
     {
-      "headline": "El presidente de Microsoft dice que la leche enfrenta más regulación que la IA - Reuters",
-      "summary": "El presidente de Microsoft ha señalado que la leche, un producto de consumo básico, está sujeta a una regulación más estricta que la inteligencia artificial. Esta comparación resalta la percepción de un marco regulatorio aún incipiente para la IA.",
-      "why_it_matters": "La declaración subraya el debate en curso sobre la necesidad de una regulación más robusta y adaptada a la rápida evolución de la tecnología de IA, especialmente ante su creciente impacto en la sociedad.",
+      "headline": "Microsoft president says milk faces more regulation than AI",
+      "summary": "El presidente de Microsoft ha declarado que la leche está sujeta a más regulaciones que la inteligencia artificial. Esta afirmación resalta la percepción de una regulación insuficiente en el sector de la IA en comparación con industrias más tradicionales.",
+      "why_it_matters": "Genera debate sobre el ritmo y la adecuación de la regulación de la IA, sugiriendo que la industria tecnológica podría estar avanzando más rápido que los marcos regulatorios.",
       "source": "Google News AI Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS1NfWGg4YTk5aTliMnhVVHdsS2ZoUVJwT1hsNW9HZ2Y0VXdsRWFSb2VRT3RmQ1B1ZnZKRVZUd1ZQWElzM3dPZ08yRldXRXdwdm9Lc3hEOWZxQVNrYjBtMExTYkhnTnM5b1NNdmI5aUZGS29vRXVCLUpXY2JsbTRodVpMNkZBU1JnUEZWdUJvcUtwbnVXSWFaT3lMbzlqdVRybm9YTVJ4anVpbkZmN0lOYUFR?oc=5",
       "category": "Regulación y sociedad",
       "published_date": "2026-10-12"
     },
     {
-      "headline": "Alemania planea acuerdo de cooperación en IA con Nvidia, según Handelsblatt - Reuters",
-      "summary": "Alemania está en conversaciones para establecer un acuerdo de cooperación en inteligencia artificial con Nvidia. Este acuerdo busca fortalecer la posición de Alemania en el desarrollo y la adopción de tecnologías de IA.",
-      "why_it_matters": "La colaboración entre gobiernos y líderes de la industria como Nvidia es crucial para impulsar la innovación en IA, asegurar la soberanía tecnológica y fomentar el crecimiento económico en un sector cada vez más competitivo.",
+      "headline": "Global financial watchdog calls for more human oversight of agentic AI",
+      "summary": "Un organismo de vigilancia financiera global ha solicitado una mayor supervisión humana para la IA agentica. La preocupación se centra en los riesgos potenciales que los sistemas de IA autónomos podrían presentar para la estabilidad financiera.",
+      "why_it_matters": "Indica una creciente conciencia en el sector financiero sobre la necesidad de controles humanos en la implementación de IA, especialmente en sistemas que operan de forma autónoma.",
       "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMENmUllvcDNtemJGTUdXYlh1UWRmNUVLTzNreFJOSWtKZVowMHk1WHMzNmwweHY2NVJZU2hxR0NOa3BVOG80YXN2SWN0U3J0R1RjYzc5blkzdVBsaTZhVDFCc3dyNUl0QVhpY0Q4OUdsZi05UU5xTEdCQXBVdGJWRVl3R0ZnTUhIeE5PdVItY0RvVHBWYXNsVlV5OGFQNGtCSkVYWFdXa0ttSWVf?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGFNeG9sS1g2RElieWFWS1l0a3FPSmRqT1BkSXpDbHc5LW9qY3c1UGFONlZNMHdGMHFPR1JPMzk2Rlg5OVlEM0pwaU5CZ2hyN3lzWTdPWVd2UlFaOVZPVVM4U1dPUzFFc2lEOU5hZ0V3ZG1ONm5LUHc5OUc3VVVHOHNNUUctRWNWQktSOGFDS01YUFd1Q1Atczh0ZFBlSlNGOGhNWTVWa2NPeE0wZDJqV2hyWkFoNDQ?oc=5",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-10-15"
+    },
+    {
+      "headline": "Germany plans AI cooperation deal with Nvidia, Handelsblatt says",
+      "summary": "Alemania está planeando un acuerdo de cooperación en inteligencia artificial con Nvidia, según informes del periódico Handelsblatt. Este acuerdo busca fortalecer la posición de Alemania en el desarrollo y la adopción de tecnologías de IA.",
+      "why_it_matters": "Refleja la importancia estratégica de la IA para las economías europeas y la colaboración internacional en el avance de la infraestructura y las capacidades de IA.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMENmUllvcDNtemJGTUdXYlh1UWRmNUVLTzNreFJOSWtKZVowMHk1WHMzNmwweHY2NVJZU2hxR0NOa3BVOG80YXN2SWN0U3J0R1Rjzc5blkzdVBsaTZhVDFCc3dyNUl0QVhpY0Q4OUdsZi05UU5xTEdCQXBVdGJWRVl3R0ZnTUhIeE5PdVItY0RvVHBWYXNsVlV5OGFQNGtCSkVYWFdXa0ttSWVf?oc=5",
       "category": "Infraestructura",
       "published_date": "2026-10-15"
     },
     {
-      "headline": "El organismo de control financiero mundial pide más supervisión humana de la IA agentica - Reuters",
-      "summary": "Un organismo de control financiero global ha emitido una llamada para una mayor supervisión humana en los sistemas de IA agentica. La preocupación se centra en la necesidad de mantener el control humano en decisiones financieras críticas.",
-      "why_it_matters": "A medida que los agentes de IA se vuelven más autónomos en el sector financiero, garantizar la supervisión humana adecuada es esencial para mitigar riesgos, mantener la estabilidad del mercado y asegurar la rendición de cuentas.",
-      "source": "Google News AI Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGFNeG9sS1g2RElieWFWS1l0a3FPSmRqT1BkSXpDbHc5LW9qY3c1UGFONlZNMHdGMHFPR1JPMzk2Rlg5OVlEM0pwaU5CZ2hyN3lzWTdPWVd2UlFaOVZPVVM4U1dPUzFFc2lEOU5hZ0V3ZG1ONm5LUHc5OUc3VVVHOHNNUUctRWNWQktSOGFDS01YUFd1Q1Atczh0ZFBlSlNGOGhNWTVWa2NPeE0wZDJqV2hyWkFoNDQ?oc=5",
-      "category": "Agentes y herramientas",
+      "headline": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "La integración de un plugin de ChatGPT ha impulsado un crecimiento significativo para Stack Overflow for Agents, triplicando las inscripciones. Esta sinergia facilita la creación y el uso de agentes de IA.",
+      "why_it_matters": "Demuestra el poder de las integraciones de modelos de lenguaje grandes (LLM) para democratizar el acceso y el desarrollo de herramientas de IA, impulsando la adopción de agentes.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-10-16"
+    },
+    {
+      "headline": "A team of Gemini 4 Argon agents beats Minecraft",
+      "summary": "Un equipo de cuatro agentes Gemini 4 Argon ha logrado completar con éxito el juego Minecraft, incluyendo la derrota del Ender Dragon. Los agentes coordinaron sus acciones a través de chat y memoria compartida, escribiendo y depurando su propio código sin intervención humana.",
+      "why_it_matters": "Representa un hito en la autonomía de los agentes de IA, demostrando su capacidad para la planificación a largo plazo, la coordinación multiagente y la resolución de problemas complejos en entornos simulados.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.22319v1",
+      "category": "Modelos fundacionales",
       "published_date": "2026-10-15"
     }
   ],
   "papers": [
     {
       "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-      "summary": "Se introduce 3DCodeVerse, un ecosistema de investigación que permite a los agentes de codificación crear contenido 3D editable y verificable a escala. Incluye grandes conjuntos de datos de código 3D ejecutable, un marco de trabajo para el razonamiento espacial y la verificación automatizada, y guías prácticas para la codificación 3D.",
-      "technical_relevance": "Este trabajo aborda la creación de contenido 3D mediante agentes de codificación, centrándose en la generación de datos a gran escala, la verificación automatizada y la obtención de directrices prácticas. Es relevante para el desarrollo de agentes capaces de interactuar y generar entornos tridimensionales complejos.",
+      "summary": "Se introduce 3DCodeVerse, un ecosistema de investigación que permite a los agentes de codificación crear contenido 3D editable y verificable a gran escala. Incluye datasets de código 3D ejecutable, un entorno de ejecución para razonamiento espacial y verificación automatizada, y guías prácticas.",
+      "technical_relevance": "Aborda la generación y verificación de contenido 3D mediante agentes de codificación, un área emergente con aplicaciones en diseño, simulación y mundos virtuales.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2610.22341v1",
       "tags": [
-        "Agentes",
-        "Generación 3D",
-        "Aprendizaje automático"
+        "generación 3D",
+        "agentes de codificación",
+        "datasets",
+        "verificación automatizada"
       ],
       "published_date": "2026-10-15"
     },
     {
       "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
-      "summary": "Se presenta \"Librarian Agents\", un marco para entrenar LLMs en la curación proactiva de espacios de trabajo de contexto largo. Un agente constructor transforma documentos en un sistema de archivos jerárquico con enlaces de referencia, optimizado para anticipar y servir consultas futuras de un agente de respuesta.",
-      "technical_relevance": "Aborda el desafío del razonamiento en contextos de documentos largos mediante la curación anticipatoria de espacios de trabajo. La formulación como un proceso de decisión de Markov y la optimización mediante aprendizaje por refuerzo son técnicas clave para mejorar la eficiencia de los agentes en tareas de razonamiento complejas.",
+      "summary": "Se presenta Librarian Agents, un framework para entrenar LLMs en la curación proactiva de espacios de trabajo de contexto largo. Los agentes 'bibliotecarios' transforman corpus de documentos en sistemas de archivos jerárquicos que anticipan y sirven eficientemente consultas futuras.",
+      "technical_relevance": "Investiga la curación anticipatoria de datos por parte de agentes para mejorar el razonamiento de LLMs en contextos extensos, abordando una limitación clave en la gestión de información a largo plazo.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2610.22273v1",
       "tags": [
-        "Agentes",
-        "LLMs",
-        "Gestión de conocimiento",
-        "Aprendizaje por refuerzo"
+        "agentes LLM",
+        "gestión de contexto largo",
+        "curación de datos",
+        "razonamiento predictivo"
       ],
       "published_date": "2026-10-15"
     },
     {
       "title": "X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning",
-      "summary": "Se propone X-RIC (eXplainable RIC), un marco que integra IA agentica en arquitecturas O-RAN para mejorar el control inteligente de la RAN. Combina aprendizaje por refuerzo reactivo con razonamiento agentico estratégico, utilizando un modelo de lenguaje de telecomunicaciones (TLM) para la abstracción contextual y la interpretabilidad.",
-      "technical_relevance": "Introduce un nuevo marco y benchmark (X-RIC y BARX) para la IA agentica en el control de redes de radio (RAN). La integración de TLMs y el aprendizaje por refuerzo con explicabilidad es un avance técnico significativo para la optimización de redes complejas.",
+      "summary": "Se propone X-RIC (eXplainable RIC), un framework que integra IA agentica en arquitecturas O-RAN para el control inteligente de redes de acceso por radio (RAN). Combina RL con razonamiento agentico, un modelo de lenguaje de telecomunicaciones (TLM) para interpretabilidad y un marco de evaluación (BARX).",
+      "technical_relevance": "Aplica IA agentica para optimizar el control de redes de telecomunicaciones, introduciendo interpretabilidad y mejora del RL en un dominio crítico de infraestructura.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2610.22269v1",
       "tags": [
-        "Agentes",
-        "Redes de comunicación",
-        "Aprendizaje por refuerzo",
-        "Control inteligente"
+        "IA en redes",
+        "agentes inteligentes",
+        "control RAN",
+        "reinforcement learning"
       ],
       "published_date": "2026-10-15"
     },
     {
       "title": "Shortcut Sensitivity in Agent-Safety Evaluations",
-      "summary": "Se introduce un marco de auditoría de accesos directos de tres niveles para evaluar la seguridad de los agentes de IA. El estudio analiza la predecibilidad de las etiquetas, la asociación de los supervisores con las observaciones y la sensibilidad de las decisiones emparejadas, revelando vulnerabilidades en las evaluaciones de seguridad.",
-      "technical_relevance": "Aborda un problema crítico en la evaluación de la seguridad de los agentes: la sensibilidad a los accesos directos. El marco propuesto y los hallazgos empíricos son fundamentales para desarrollar métodos de evaluación más robustos y fiables para la seguridad de los agentes de IA.",
+      "summary": "Se introduce un marco de auditoría de 'atajos' de tres niveles para evaluar la seguridad de los agentes de IA. El estudio analiza cómo las señales predictivas en los datos de evaluación pueden influir en las decisiones de los agentes y la fiabilidad de las métricas de seguridad.",
+      "technical_relevance": "Aborda un problema crítico en la evaluación de la seguridad de agentes: la sensibilidad a 'atajos' que pueden invalidar las métricas. Propone un método para auditar y mitigar estos problemas.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2610.22243v1",
       "tags": [
-        "Agentes",
-        "Seguridad de IA",
-        "Evaluación",
-        "Aprendizaje automático"
+        "seguridad de IA",
+        "evaluación de agentes",
+        "atajos de datos",
+        "fiabilidad"
       ],
       "published_date": "2026-10-15"
     },
     {
       "title": "Learning to Steer LLM Agents and Multi-Agent Systems",
-      "summary": "Se propone un agente de supervisión que interviene en tiempo real para redirigir agentes LLM y sistemas multi-agente cuando se desvían del objetivo. El agente de supervisión utiliza un camino rápido de bajo costo y un camino lento de alto costo, entrenados conjuntamente mediante aprendizaje por refuerzo.",
-      "technical_relevance": "Presenta una solución novedosa para el problema de la deriva de objetivos en agentes LLM y sistemas multi-agente. El enfoque de \"agente de supervisión\" entrenado con RL para guiar la ejecución es un avance técnico importante para mejorar la fiabilidad y eficiencia de estos sistemas.",
+      "summary": "Se presenta un agente de supervisión que interviene para corregir la 'deriva de objetivos' en agentes LLM y sistemas multiagente. El agente de dirección, entrenado con RL, utiliza un camino rápido de bajo costo y uno lento de alto costo para mantener el sistema enfocado en la meta.",
+      "technical_relevance": "Introduce una técnica para mejorar la fiabilidad y eficiencia de agentes LLM y sistemas multiagente mediante un mecanismo de 'dirección' que previene la desviación del objetivo.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2610.22316v1",
       "tags": [
-        "Agentes",
-        "LLMs",
-        "Sistemas multi-agente",
-        "Aprendizaje por refuerzo"
+        "agentes LLM",
+        "sistemas multiagente",
+        "deriva de objetivos",
+        "reinforcement learning"
       ],
       "published_date": "2026-10-15"
     },
     {
       "title": "Language Is a Security Surface for Agent Guards",
-      "summary": "Se investiga si el veredicto de los \"guardas\" de agentes de IA depende del idioma de la solicitud. Se construye LinguaGuardBench traduciendo instrucciones de usuario a varios idiomas, manteniendo el resto idéntico. Los resultados muestran que la mayoría de los guardas cambian sus veredictos bajo traducción.",
-      "technical_relevance": "Este estudio revela una nueva superficie de ataque de seguridad relacionada con el lenguaje en los sistemas de agentes de IA. La dependencia del idioma en las decisiones de seguridad de los guardas es una implicación técnica importante para la robustez y la equidad de los sistemas de IA.",
+      "summary": "Se investiga cómo el idioma de las instrucciones del usuario afecta las decisiones de los 'guardas' de seguridad de agentes de IA. Se demuestra que las variaciones lingüísticas pueden alterar los veredictos de seguridad, especialmente en idiomas menos comunes.",
+      "technical_relevance": "Revela una vulnerabilidad de seguridad en los sistemas de IA: la dependencia del idioma de los prompts de entrada, lo que requiere consideraciones multilingües para una seguridad robusta.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2610.22244v1",
       "tags": [
-        "Agentes",
-        "Seguridad de IA",
-        "Procesamiento del lenguaje natural",
-        "Evaluación"
+        "seguridad de IA",
+        "guardas de agentes",
+        "multilingüismo",
+        "evaluación de seguridad"
       ],
       "published_date": "2026-10-15"
     }
