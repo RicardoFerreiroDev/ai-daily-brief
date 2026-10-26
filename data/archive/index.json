@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-26",
+    "title": "AI Daily Brief",
+    "news_count": 8,
+    "papers_count": 6,
+    "file": "/ai-daily-brief/reports/2026-10-26/"
+  },
+  {
     "date": "2026-10-25",
     "title": "AI Daily Brief: Coordinación de Agentes, Seguridad y Evaluación de Modelos",
     "news_count": 8,
