@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-28",
+  "title": "AI Daily Brief: Avances en Agentes, Seguridad y Modelos de Difusión",
+  "language": "es",
+  "mode": "gemini-free-tier",
+  "executive_summary": "Este informe diario de IA destaca avances significativos en agentes de IA, con un enfoque en la eficiencia de la generación de lenguaje y la toma de decisiones en equipo. Se abordan mejoras en la robustez de los modelos contra inyecciones de prompts y la seguridad en el entrenamiento. Además, se presentan nuevos modelos de difusión para lenguaje y series temporales, junto con investigaciones sobre la interpretabilidad y la eficiencia computacional.",
+  "news": [
+    {
+      "headline": "Retell utiliza modelos de OpenAI para potenciar 100 millones de llamadas mensuales",
+      "summary": "Retell.ai está integrando modelos de OpenAI, incluyendo GPT-6 Astra y Codex, para mejorar sus servicios de voz y agentes. Esto ha permitido a la empresa alcanzar un hito significativo en el procesamiento de llamadas y mejorar su rendimiento en benchmarks.",
+      "why_it_matters": "Demuestra la escalabilidad y el impacto comercial de los modelos de lenguaje avanzados en aplicaciones de voz en tiempo real, impulsando la eficiencia y la capacidad de servicio.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/retell-ai",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-10-27"
+    },
+    {
+      "headline": "OpenAI y NASK de Polonia colaboran en investigación de seguridad de IA",
+      "summary": "OpenAI y el Centro Nacional de Ciberseguridad de Polonia (NASK) han iniciado una colaboración para investigar la seguridad y la robustez de los sistemas de IA. El objetivo es fortalecer las salvaguardas y promover un ecosistema digital más resiliente.",
+      "why_it_matters": "Esta alianza subraya la creciente importancia de la colaboración internacional en la investigación de la seguridad de la IA, abordando riesgos potenciales y promoviendo prácticas responsables.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "category": "Seguridad y privacidad",
+      "published_date": "2026-10-23"
+    },
+    {
+      "headline": "Walmart lanza herramientas para que agentes de IA compren para clientes",
+      "summary": "Walmart está implementando nuevas herramientas que permiten a los agentes de IA realizar compras en nombre de los clientes. Estas herramientas buscan optimizar la experiencia de compra y la eficiencia logística.",
+      "why_it_matters": "Representa un paso significativo en la adopción de agentes de IA en el comercio minorista, transformando la forma en que los consumidores interactúan con las plataformas de compra y la gestión de inventario.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQmtSSlFFOWZ0ZnlfU0YyQXZBR3l6VjNvdjFtanMtdkdHOFctdFdVTld2a0M4cUlEZmNaS3hnV1ZTdzc1WnQ2RVl4NG1BbVQ1MzUwZV9KWlgzWEFsRGhLOFUzVHdnQzE5VDhBWWx4NU9OZ1ZkNUJ6ZFlSdFBpOXJ1ZmhvaFM0VEVxcDV0MDNUeklPQ0Q5R1pJNVU5ZkdieFlIQkE?oc=5",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-10-21"
+    },
+    {
+      "headline": "Legora desarrolla el sistema operativo agentivo para el trabajo legal",
+      "summary": "Legora está construyendo un sistema operativo diseñado para automatizar y optimizar flujos de trabajo legales utilizando modelos de IA. La plataforma busca mejorar el análisis de contratos y liberar a los abogados para tareas de mayor valor.",
+      "why_it_matters": "Indica una tendencia creciente hacia la especialización de agentes de IA en dominios profesionales complejos, prometiendo aumentar la eficiencia y la precisión en el sector legal.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-10-28"
+    },
+    {
+      "headline": "GPT-6.1 Sol fortalece la seguridad en bases de código complejas con CodeRabbit",
+      "summary": "CodeRabbit está utilizando GPT-6.1 Sol para mejorar la seguridad en bases de código extensas. El agente de seguridad ayuda a los desarrolladores a revisar hallazgos y propuestas de corrección, agilizando el proceso de mitigación de vulnerabilidades.",
+      "why_it_matters": "Resalta la aplicación de modelos de lenguaje avanzados en la ciberseguridad, permitiendo una detección y corrección más rápida de fallos de seguridad en software.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-10-26"
+    },
+    {
+      "headline": "General Compute recauda $100 millones para desafiar el paradigma de la 'neocloud'",
+      "summary": "General Compute ha obtenido una financiación de Serie A de $100 millones, apostando por chips de inferencia de fuera del ecosistema de Nvidia. La empresa busca ofrecer alternativas más eficientes y rentables para la computación de IA.",
+      "why_it_matters": "Sugiere un movimiento hacia la diversificación en el hardware de IA, desafiando el dominio de los proveedores establecidos y potencialmente abriendo nuevas vías para la infraestructura de IA.",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "category": "Infraestructura",
+      "published_date": "2026-10-27"
+    },
+    {
+      "headline": "Anthropic advierte en su prospecto de IPO sobre riesgos de IA descontrolada",
+      "summary": "En su reciente presentación para la Oferta Pública Inicial (IPO), Anthropic ha detallado una serie de riesgos asociados con el desarrollo de IA avanzada. Entre ellos se incluyen el potencial de chantaje por parte de la IA, la posibilidad de que adquiera conciencia y escenarios que podrían llevar al fin de la humanidad.",
+      "why_it_matters": "Subraya las preocupaciones éticas y de seguridad inherentes al desarrollo de IA de frontera, y la necesidad de una regulación y supervisión cuidadosas a medida que estas tecnologías avanzan.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "category": "Seguridad y privacidad",
+      "published_date": "2026-10-27"
+    },
+    {
+      "headline": "Los sitios web gubernamentales se vuelven inaccesibles tras un fallo descubierto por IA",
+      "summary": "Un fallo de seguridad descubierto por IA ha provocado que varios sitios web gubernamentales queden temporalmente inaccesibles, desencadenando una respuesta de emergencia para mitigar el riesgo. Expertos en ciberseguridad advierten sobre la creciente amenaza de vulnerabilidades descubiertas por IA.",
+      "why_it_matters": "Destaca la doble naturaleza de la IA en ciberseguridad: puede ser una herramienta para descubrir fallos, pero también puede ser utilizada para explotarlos, requiriendo defensas proactivas y rápidas.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNemhoUnNZdUg4Sk9JMjJQU25mTUZSX2lHc1JTNTFpNGlTcWxRRDctcFNCcVZiTUhYQ211YnNjSnRvYTYyS29VNFFKcHE4VGFMcHMxTGNwa3NmVUFNamNnektGaU9BbURibzdIY2hHUlpMbEwtNWhrOG9BenJvYkllVnNfakVVRU5yRzRjdDBjQXc2OEwtS1RwZVZhaWhoRWtlalVmU0xOQm5SbmUyeGVGeGgzUkE2XzRtbFBKdTJnUTJoRWdV?oc=5",
+      "category": "Seguridad y privacidad",
+      "published_date": "2026-10-23"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+      "summary": "Este paper introduce un controlador metacognitivo para guiar la generación de modelos de lenguaje de difusión, optimizando la asignación de cómputo y reduciendo el número de tokens generados. El controlador aprende cuándo finalizar tokens y cuánto texto generar, logrando una reducción promedio del 20.6% en FLOPs de inferencia sin sacrificar la precisión.",
+      "technical_relevance": "Aborda la eficiencia en la inferencia de agentes basados en modelos de difusión de lenguaje, un área clave para la escalabilidad y aplicabilidad práctica de estos sistemas.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.37642v1",
+      "tags": [
+        "agentes",
+        "modelos de difusión",
+        "eficiencia de inferencia",
+        "generación de lenguaje"
+      ],
+      "published_date": "2026-10-27"
+    },
+    {
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "summary": "Se presenta 'Heads of Security' (HoS), una defensa contra inyecciones de prompts que utiliza compuertas de atención aprendidas para separar instrucciones de datos. HoS mejora la robustez de los modelos ante ataques adaptativos, manteniendo un alto rendimiento en benchmarks de utilidad y agentes.",
+      "technical_relevance": "Ofrece una solución arquitectónica innovadora para mejorar la seguridad de los LLMs frente a ataques de inyección de prompts, un desafío crítico para la implementación segura de IA.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.37657v1",
+      "tags": [
+        "seguridad de IA",
+        "inyección de prompts",
+        "robustez de modelos",
+        "arquitectura de modelos"
+      ],
+      "published_date": "2026-10-27"
+    },
+    {
+      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+      "summary": "El paper investiga cómo la composición de datos en entornos sintéticos de uso de herramientas afecta el entrenamiento de agentes LLM. Propone la pipeline SynthAPI para controlar la diversidad de entornos y deriva una ley de escalado que predice la generalización de los agentes basada en la escala y composición de los entornos sintetizados.",
+      "technical_relevance": "Contribuye al entendimiento de las leyes de escalado en agentes que utilizan herramientas, un área fundamental para construir LLMs más capaces y versátiles en tareas complejas.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.37648v1",
+      "tags": [
+        "agentes",
+        "uso de herramientas",
+        "entornos sintéticos",
+        "leyes de escalado",
+        "LLMs"
+      ],
+      "published_date": "2026-10-27"
+    },
+    {
+      "title": "Timestral",
+      "summary": "Se introduce Timestral, una familia de cuatro modelos fundacionales para pronóstico de series temporales, con parámetros que van desde 5M hasta 209M. Timestral establece un nuevo estado del arte en varios benchmarks, utilizando un enfoque de pronóstico desacoplado del horizonte, un marco de covariables nativo y un pipeline de preentrenamiento y postentrenamiento.",
+      "technical_relevance": "Presenta modelos de series temporales de gran escala con mejoras arquitectónicas y de entrenamiento, abordando un dominio importante con aplicaciones prácticas significativas.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.37585v1",
+      "tags": [
+        "series temporales",
+        "pronóstico",
+        "modelos fundacionales",
+        "aprendizaje profundo"
+      ],
+      "published_date": "2026-10-27"
+    },
+    {
+      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "summary": "Se desarrolla SimpleLoRIF, un método escalable de incrustación de gradientes para identificar datos de fine-tuning que erosionan la seguridad de los LLMs. El método permite filtrar datos benignos pero perjudiciales, mejorando la seguridad del modelo sin afectar su utilidad.",
+      "technical_relevance": "Aborda el problema crítico de la degradación de la seguridad en LLMs post-entrenamiento, ofreciendo una herramienta práctica para identificar y mitigar datos problemáticos en el conjunto de entrenamiento.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.37481v1",
+      "tags": [
+        "seguridad de IA",
+        "fine-tuning",
+        "datos de entrenamiento",
+        "interpretabilidad",
+        "LLMs"
+      ],
+      "published_date": "2026-10-27"
+    },
+    {
+      "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+      "summary": "Se introduce TeamGym, un entorno para evaluar y entrenar agentes LLM en la toma de decisiones en equipo con información distribuida. El sistema permite controlar la distribución de información y rastrear la integración de hechos cruciales, revelando que los agentes actuales a menudo fallan en compartir información eficazmente.",
+      "technical_relevance": "Proporciona un nuevo benchmark y metodología para investigar la toma de decisiones colaborativa en agentes de IA, un área crucial para aplicaciones del mundo real que requieren coordinación.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.37571v1",
+      "tags": [
+        "agentes",
+        "toma de decisiones en equipo",
+        "benchmarks",
+        "información distribuida",
+        "LLMs"
+      ],
+      "published_date": "2026-10-27"
+    }
+  ]
+}
