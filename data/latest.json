@@ -1,167 +1,167 @@
 {
-  "date": "2026-11-04",
-  "title": "AI Daily Brief",
+  "date": "2026-11-05",
+  "title": "AI Daily Brief: Avances en Agentes de Visión y Control de Acceso",
   "language": "es",
   "mode": "gemini-free-tier",
-  "executive_summary": "Este informe diario de IA cubre avances en agentes autónomos, seguridad de modelos, optimización de modelos de lenguaje y la creciente integración de la IA en diversas industrias. Se destacan investigaciones sobre razonamiento especulativo para agentes de largo alcance, nuevas arquitecturas para la predicción de series temporales y la importancia de la evaluación rigurosa de modelos. También se abordan las implicaciones de seguridad y regulación, así como las tendencias económicas en el sector de la IA.",
+  "executive_summary": "Este informe diario de IA destaca los avances en agentes de visión con capacidades de razonamiento científico mejoradas y nuevas arquitecturas que separan la política de enrutamiento de la ejecución de acciones. También se abordan los desafíos y avances en el control de acceso para agentes de IA, asegurando que sus acciones permanezcan dentro de los límites autorizados. Se presentan benchmarks para evaluar el diseño de sistemas de servicio de LLM y la gestión de flujos de trabajo de agentes en GitHub. Finalmente, se discuten las implicaciones de la infraestructura de IA responsable y las tendencias del mercado.",
   "news": [
     {
+      "headline": "OpenAI establece un nuevo estándar para la infraestructura de IA responsable",
+      "summary": "OpenAI introduce su National Community Compact y Compute Campus Policy Blueprint para proteger los recursos locales, crear empleos y guiar el desarrollo responsable de la infraestructura de IA. Estas políticas buscan asegurar que el crecimiento de la IA beneficie a las comunidades y minimice los impactos negativos.",
+      "why_it_matters": "Establece un marco para el desarrollo de infraestructura de IA a gran escala, priorizando la responsabilidad social y comunitaria, lo cual es crucial para la adopción y el crecimiento sostenible de la IA.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "category": "Infraestructura",
+      "published_date": "2026-11-05"
+    },
+    {
+      "headline": "DevRev ofrece autoservicio autónomo con GPT-6.1 Sol",
+      "summary": "DevRev utiliza GPT-6.1 Sol para potenciar su plataforma Computer and Operator, logrando un equilibrio entre razonamiento, velocidad y costo para el servicio empresarial. Esta integración permite a las empresas ofrecer soporte autónomo y eficiente a sus clientes.",
+      "why_it_matters": "Demuestra la aplicación práctica de modelos avanzados de IA para mejorar la eficiencia del servicio al cliente y la automatización de procesos empresariales, reduciendo costos y tiempos de respuesta.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-11-04"
+    },
+    {
+      "headline": "Meta adquiere la startup de codificación AI Conductor",
+      "summary": "Meta ha adquirido Conductor, una startup que permite a los ingenieros de software desplegar equipos de agentes de IA para trabajar simultáneamente en varios aspectos de un proyecto. Esta adquisición busca potenciar las capacidades de desarrollo de software asistido por IA de Meta.",
+      "why_it_matters": "La adquisición subraya la creciente importancia de los agentes de IA en el desarrollo de software y la estrategia de Meta para integrar estas tecnologías avanzadas en sus flujos de trabajo de ingeniería.",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "category": "Agentes y herramientas",
+      "published_date": "2026-11-04"
+    },
+    {
+      "headline": "La demanda de chips de IA impulsa el crecimiento trimestral de fabricantes de productos químicos y gases industriales - Reuters",
+      "summary": "La creciente demanda de chips de inteligencia artificial está impulsando el crecimiento en el tercer trimestre para los fabricantes de productos químicos y gases industriales. Este aumento se debe a la necesidad de materiales y componentes especializados para la producción de semiconductores avanzados.",
+      "why_it_matters": "Indica una fuerte correlación entre el auge de la IA y sectores industriales tradicionales, destacando la interdependencia de las cadenas de suministro y la infraestructura necesaria para la expansión de la IA.",
+      "source": "Google News AI Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPckw5Yml2X0hxNU5DcnBqSGtkRjM1UHVEc2JzU3ZPYXc1MGVWSF9kTXFMeGZXeXNvVk05U0Z3VWdWZkJtemhreDlOY21Fclc3YlBXbHB6bGgxLUdMOVBqMnJOZFVXVXA2YmFSWGU2bkJaYTBRY2NHc1lFdVRVZi0za2IxMFprc0RGS2FwUHhZSEZjYUNSd1B2LVdEdVdjN3hSVW9jalhvZEJ2TDZoTW1TTzg2TlE1YjdubGpUMUtISTNTOXRmVFZr?oc=5",
+      "category": "Infraestructura",
+      "published_date": "2026-11-05"
+    },
+    {
       "headline": "OpenAI nombra a Dan Driscoll como Consejero Senior para la Modernización de la Seguridad Nacional",
-      "summary": "OpenAI ha nombrado a Dan Driscoll como Consejero Senior para asesorar sobre la modernización de la seguridad nacional, la resiliencia cibernética y la colaboración con aliados de EE. UU. Este nombramiento subraya el creciente enfoque en la seguridad y la gobernanza de la IA.",
-      "why_it_matters": "Refuerza la estrategia de OpenAI en cuanto a la seguridad nacional y la gobernanza responsable de la IA, crucial para la adopción y confianza en tecnologías avanzadas.",
+      "summary": "OpenAI ha nombrado a Dan Driscoll como Consejero Senior para asesorar sobre IA responsable en la modernización de la seguridad nacional, la resiliencia cibernética y la colaboración con aliados de EE. UU. Su rol será fundamental para alinear las capacidades de IA con las necesidades de seguridad nacional.",
+      "why_it_matters": "Refleja la creciente importancia de la IA en el ámbito de la seguridad nacional y el compromiso de OpenAI de desarrollar y desplegar estas tecnologías de manera responsable y segura.",
       "source": "OpenAI News",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "category": "Seguridad y privacidad",
       "published_date": "2026-11-02"
     },
     {
-      "headline": "Cómo detectar la desalineación de modelos de frontera",
-      "summary": "OpenAI utiliza monitoreo en capas para detectar la desalineación de modelos de frontera y el comportamiento no autorizado de agentes. Esto permite a los respondedores intervenir antes de que los incidentes escalen.",
-      "why_it_matters": "Detalla las metodologías de OpenAI para garantizar la seguridad y alineación de sus modelos más avanzados, un aspecto crítico para el desarrollo responsable de la IA.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-10-29"
-    },
-    {
-      "headline": "La \"teoría de juegos inversa\" podría mantener a raya a los agentes de IA",
-      "summary": "Un nuevo enfoque conocido como \"teoría de juegos inversa\" busca controlar modelos de IA potentes diseñando sistemas que los incentiven a cumplir las reglas. A medida que los modelos de IA se vuelven más capaces, los investigadores de seguridad se apresuran a garantizar que estén \"alineados\" con los deseos humanos.",
-      "why_it_matters": "Presenta un enfoque innovador para la alineación de IA, centrándose en el diseño de mecanismos que incentiven el comportamiento deseado en lugar de solo prevenir el indeseado.",
+      "headline": "La descarga: el frágil auge de la IA en Texas y los cambios en la política energética",
+      "summary": "Texas se perfilaba como un centro neurálgico para la construcción de centros de datos de IA, pero este auge podría ser insostenible. El artículo discute los desafíos y la fragilidad de este crecimiento en el contexto de cambios en la política energética.",
+      "why_it_matters": "Analiza las complejidades de la infraestructura de IA, incluyendo la dependencia de la energía y la sostenibilidad a largo plazo de los centros de datos en regiones específicas.",
       "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-11-03"
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "category": "Infraestructura",
+      "published_date": "2026-11-05"
     },
     {
-      "headline": "Mistral AI lanza públicamente Large 4, dirigido a usuarios de ciberseguridad",
-      "summary": "Mistral AI ha lanzado públicamente su modelo Large 4, con un enfoque específico en aplicaciones de ciberseguridad. Este lanzamiento busca proporcionar capacidades avanzadas para la protección y análisis en el ámbito de la ciberseguridad.",
-      "why_it_matters": "Indica la creciente especialización de los modelos de lenguaje grandes para dominios críticos como la ciberseguridad, sugiriendo un avance en la aplicabilidad práctica de la IA.",
+      "headline": "Daybreak Red ya está disponible en AWS GovCloud (US-East)",
+      "summary": "Daybreak Red, que integra GPT-5.6 Cyber, ahora está disponible para clientes aprobados en AWS GovCloud (US-East) a través de Amazon Bedrock. Está diseñado para trabajos autorizados de ciberseguridad, ofreciendo capacidades avanzadas de protección.",
+      "why_it_matters": "Expande el acceso a modelos de IA avanzados para aplicaciones críticas de ciberseguridad en entornos gubernamentales seguros, facilitando la defensa contra amenazas emergentes.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "category": "Modelos fundacionales",
+      "published_date": "2026-11-04"
+    },
+    {
+      "headline": "Mistral AI lanza públicamente Large 4, dirigido a usuarios de ciberseguridad - Reuters",
+      "summary": "Mistral AI ha lanzado públicamente su modelo Large 4, enfocado en aplicaciones de ciberseguridad. Este lanzamiento busca proporcionar herramientas avanzadas para la detección y prevención de amenazas en el ámbito de la ciberseguridad.",
+      "why_it_matters": "Destaca la creciente especialización de los modelos de IA para nichos de mercado críticos como la ciberseguridad, ofreciendo soluciones más potentes y específicas.",
       "source": "Google News AI Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGVVeXl0bmw1cnBiUkdkU2VRT2VPcWtxSHdNTmQxQ2xlOUxiSW1aY0J5eVd2T2RPYXJQdlEwdWpSSzBuRlZmcHlHU1F3LTVCVmo3ZzZqbXRDZ1pmaDdEMkd0OFIycWhkWXhydlQ4Z0UzZ3FHbUdaaXJOMGVSRFhwSkZRYmFGcWoxeUlQUWtBUVBlZXM3NkgtRGN0dE81LWxkMTRGVnFSSnJWUU83SXRONUJPQm84a0pl?oc=5",
       "category": "Modelos fundacionales",
       "published_date": "2026-10-29"
-    },
-    {
-      "headline": "OpenAI adquiere Pierre Computer Company, Inc.",
-      "summary": "OpenAI adquirirá Pierre Computer Company, expandiendo sus herramientas para construir, comprender y revisar código. Esta adquisición busca mejorar las capacidades de Codex.",
-      "why_it_matters": "La adquisición de Pierre Computer Company por parte de OpenAI señala una inversión estratégica en la mejora de la infraestructura y las herramientas de desarrollo de IA, particularmente en el ámbito de la generación y análisis de código.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "category": "Infraestructura",
-      "published_date": "2026-11-04"
-    },
-    {
-      "headline": "Acelerando la ingeniería para el mundo físico",
-      "summary": "Descubra cómo ChatGPT y Codex están ayudando a los ingenieros a acelerar flujos de trabajo como CAD, diseño de PCB, simulación y otros en el mundo físico. La IA se está integrando cada vez más en el diseño y la ingeniería de hardware.",
-      "why_it_matters": "Demuestra la creciente aplicabilidad de la IA en el diseño y la ingeniería de sistemas físicos, un área clave para la innovación tecnológica.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "category": "Modelos fundacionales",
-      "published_date": "2026-11-03"
-    },
-    {
-      "headline": "Anthropic registra ingresos trimestrales de 17 mil millones de dólares, pero las pérdidas continúan",
-      "summary": "Anthropic reportó ingresos trimestrales de 17 mil millones de dólares, aunque las pérdidas persisten, según una nueva presentación para una posible salida a bolsa. Esto resalta los desafíos económicos en el desarrollo de IA a gran escala.",
-      "why_it_matters": "Proporciona información sobre la salud financiera de un actor clave en el campo de la IA, destacando la tensión entre el rápido crecimiento y la rentabilidad en la industria.",
-      "source": "Google News AI Research",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUXh1VkVyc3dKRG1DOHY5eFV5MUgwVlJLMGg5WVlRa2hyZEJKM2NON0FCQm8wYjZsZzdabGsxN2VKZjVQd0k1TWZaMENTbWpaajRPZW16T3BYYl9rSEg5c29uR1BfVnBOTkxmYnJqU2tZSVZhb1VtTnU0X1ZLWENhSXRrZDRKbHhR0gGQAUFVX3lxTE1peGlNa09KaUE5R01ZT2dwcUxkTWZQcXJEZmtDTmF0a3BfekVnMUtlNGJIcmZZYUdhZ0g3MnJJekRTN2k0M2JteUEtX1RBOEFkczJ1S2pOSW9ReGxaMXhDVW5UUjlKb0lsMVVTb1h4ZVgwMURNdkdMMDFJS1FGeXJZS2FfUVBGZVR3S21EQWZEbw?oc=5",
-      "category": "Producto y mercado",
-      "published_date": "2026-11-02"
-    },
-    {
-      "headline": "El \"web agentic\" está aquí",
-      "summary": "En 2001, Tim Berners-Lee articuló una nueva visión: una internet navegada por agentes de software autónomos que abordan nuestras necesidades. Ahora, esta visión del \"web agentic\" está comenzando a materializarse.",
-      "why_it_matters": "Marca un cambio de paradigma en la forma en que interactuamos con la web, pasando de una navegación manual a una impulsada por agentes inteligentes y autónomos.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-      "category": "Agentes y herramientas",
-      "published_date": "2026-11-02"
     }
   ],
   "papers": [
     {
-      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-      "summary": "Este paper argumenta que la decodificación especulativa, usualmente vista como una optimización de sistemas, puede afectar la precisión del razonamiento de agentes de largo alcance. Proponen entrenar modelos de borrador para ser rechazados en puntos críticos de razonamiento, mejorando la capacidad de los modelos objetivo.",
-      "technical_relevance": "Aborda la mejora de la capacidad de razonamiento de agentes de IA en tareas de largo alcance mediante la manipulación de la decodificación especulativa, un avance técnico en la arquitectura y el comportamiento de los agentes.",
+      "title": "Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+      "summary": "Este paper introduce ZETA, una arquitectura extensible que desacopla la política de enrutamiento de la ejecución de acciones en agentes de análisis de imágenes científicas. Al resolver la intención científica antes de invocar herramientas especializadas, ZETA mejora la auditabilidad y fiabilidad de los agentes para la automatización científica de alto riesgo.",
+      "technical_relevance": "Aborda la separación de la toma de decisiones (enrutamiento) de la ejecución de tareas en agentes de visión, un avance clave para la fiabilidad y interpretabilidad de sistemas complejos de IA.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.05345v1",
+      "url": "https://arxiv.org/abs/2611.06760v1",
       "tags": [
-        "Agentes",
-        "Razonamiento",
-        "Decodificación especulativa",
-        "Modelos fundacionales"
+        "Agentes de Visión",
+        "Arquitectura de Modelos",
+        "Razonamiento Científico",
+        "IA Responsable"
       ],
-      "published_date": "2026-11-03"
+      "published_date": "2026-11-04"
     },
     {
-      "title": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
-      "summary": "Presenta MDSKILL, un enfoque de destilación multi-vista para la internalización de memoria de habilidades en agentes que se auto-evolucionan. El método organiza las memorias de habilidades en vistas funcionales complementarias y utiliza métricas dinámicas para seleccionar habilidades de alta calidad.",
-      "technical_relevance": "Introduce una nueva técnica de destilación para mejorar la auto-evolución de agentes de IA, abordando el problema de la supervisión ruidosa y el conocimiento redundante en las memorias de habilidades.",
+      "title": "Rethinking Access Control for AI Agents: Recent Advances and Open Challenges",
+      "summary": "Este artículo revisa los avances recientes en el control de acceso para agentes de IA, cubriendo áreas como la especificación de políticas, la gestión de identidades, la aplicación de acciones y el control de flujo de información. Identifica desafíos abiertos y direcciones futuras para asegurar que los agentes operen dentro de límites autorizados.",
+      "technical_relevance": "Fundamental para la seguridad y la gobernanza de IA, aborda cómo gestionar y restringir las capacidades de los agentes de IA para prevenir accesos no autorizados y comportamientos indebidos.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.05313v1",
+      "url": "https://arxiv.org/abs/2611.06764v1",
       "tags": [
-        "Agentes",
-        "Aprendizaje por refuerzo",
-        "Destilación",
-        "Modelos fundacionales"
+        "Control de Acceso",
+        "Agentes de IA",
+        "Seguridad de IA",
+        "Gobernanza de IA"
       ],
-      "published_date": "2026-11-03"
+      "published_date": "2026-11-04"
     },
     {
-      "title": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
-      "summary": "Propone CATF, un marco de predicción de series temporales sensible al contexto basado en una arquitectura Manager-Worker. Un Transformer Manager dirige cada entrada a un Worker específico basado en el contexto, permitiendo la especialización de los Workers y mejorando la precisión de la predicción.",
-      "technical_relevance": "Ofrece una arquitectura novedosa para la predicción de series temporales sensibles al contexto, abordando las limitaciones de los modelos únicos y los enfoques de ensemble mediante un enrutamiento basado en contexto.",
+      "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+      "summary": "Presenta ServerBench, un benchmark para el diseño de sistemas de servicio de LLM especializados por agentes de codificación. Los agentes experimentan para optimizar la latencia y el costo, demostrando la capacidad de los agentes para diseñar infraestructura de IA eficiente.",
+      "technical_relevance": "Introduce un benchmark para evaluar la capacidad de los agentes de IA para diseñar y optimizar sistemas de servicio de LLM, un área crítica para la escalabilidad y eficiencia de la IA.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.05325v1",
+      "url": "https://arxiv.org/abs/2611.06841v1",
       "tags": [
-        "Predicción de series temporales",
-        "Arquitectura de modelos",
-        "Transformers",
-        "Modelos fundacionales"
+        "Agentes de Codificación",
+        "Infraestructura de IA",
+        "Optimización de LLM",
+        "Benchmarks"
       ],
-      "published_date": "2026-11-03"
+      "published_date": "2026-11-04"
     },
     {
-      "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
-      "summary": "Introduce JHiMA-WebRL, un marco de aprendizaje por refuerzo multi-agente jerárquico conjunto para agentes web. Este enfoque acopla un descomponedor de tareas con un actor, entrenándolos conjuntamente para mejorar la navegación web de largo alcance.",
-      "technical_relevance": "Avanza en el aprendizaje por refuerzo multi-agente para tareas web complejas, proponiendo una arquitectura jerárquica conjunta que mejora la planificación y ejecución en interacciones de largo alcance.",
+      "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "summary": "Presenta GH-AWTrace, un dataset a gran escala de logs de ejecución de flujos de trabajo de agentes en GitHub. Este dataset permite investigar fallos de ejecución, uso de herramientas y la relación entre resultados reportados y progreso visible de tareas.",
+      "technical_relevance": "Proporciona un recurso valioso para la investigación sobre la ejecución de flujos de trabajo de agentes de IA, permitiendo un análisis detallado de los fallos y el comportamiento en entornos reales.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.05263v1",
+      "url": "https://arxiv.org/abs/2611.06866v1",
       "tags": [
-        "Agentes",
-        "Aprendizaje por refuerzo",
-        "IA multi-agente",
-        "Modelos fundacionales"
+        "Agentes de IA",
+        "Flujos de Trabajo",
+        "Logs de Ejecución",
+        "Datasets"
       ],
-      "published_date": "2026-11-03"
+      "published_date": "2026-11-04"
     },
     {
-      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-      "summary": "Este paper argumenta que el futuro de la IA reside en la \"simbiosis cognitiva\", donde la IA aumenta la inteligencia humana en lugar de solo actuar de forma autónoma. Propone sistemas de IA como compañeros proactivos y personalizados que interactúan con el contexto humano.",
-      "technical_relevance": "Explora una nueva dirección para la IA, enfocándose en la amplificación de la inteligencia humana a través de la simbiosis cognitiva, un concepto con profundas implicaciones para la interacción humano-IA.",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "summary": "Introduce BEAKER, un benchmark curado por expertos para evaluar las capacidades de razonamiento y acción de los \"cerebros\" multimodales en laboratorios químicos autónomos. Cubre tareas clave para la ejecución experimental en entornos físicos complejos.",
+      "technical_relevance": "Desarrolla un benchmark específico para la IA encarnada en dominios científicos complejos (laboratorios químicos), evaluando la interacción y el razonamiento en tiempo real.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.05376v1",
+      "url": "https://arxiv.org/abs/2611.06911v1",
       "tags": [
-        "IA general",
-        "Interacción humano-IA",
-        "Agentes",
-        "Filosofía de la IA"
+        "IA Encarnada",
+        "Benchmarks",
+        "Laboratorios Autónomos",
+        "IA Multimodal"
       ],
-      "published_date": "2026-11-03"
+      "published_date": "2026-11-04"
     },
     {
-      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
-      "summary": "Presenta PyRUA-DataFarm, donde un agente LLM actúa como un teleoperador de bajo costo para recopilar datos de robots listos para uso real. El agente reconstruye tareas en simulación, genera datos de video realistas y permite entrenar políticas directamente desplegables en robots reales.",
-      "technical_relevance": "Introduce un método innovador para la recolección de datos de demostración de robots utilizando agentes LLM, reduciendo significativamente los costos y mejorando la eficiencia en la preparación de datos para el entrenamiento de políticas robóticas.",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "summary": "Presenta FrontierPhysics, un benchmark end-to-end para evaluar agentes de IA en la investigación de física. Las tareas cubren desde la revisión de literatura hasta la producción de manuscritos científicos, evaluando la corrección y publicabilidad de la investigación generada por IA.",
+      "technical_relevance": "Evalúa la capacidad de los agentes de IA para realizar investigación científica completa, un paso crucial hacia la IA general en dominios especializados y de alto nivel.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2611.05320v1",
+      "url": "https://arxiv.org/abs/2611.06910v1",
       "tags": [
-        "Robótica",
-        "Agentes",
-        "LLMs",
-        "Recolección de datos"
+        "Agentes de IA",
+        "Investigación Científica",
+        "Física",
+        "Benchmarks"
       ],
-      "published_date": "2026-11-03"
+      "published_date": "2026-11-04"
     }
   ]
 }
